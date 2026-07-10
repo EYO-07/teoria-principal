@@ -1,0 +1,78 @@
+/// BEGIN : ds_spellcasting_paradigm.txt 
+
+/* Meta-annotation
+{ Analytical Method, Socratic Dialectical Analysis }
+1. Some questions are only for 'loading context' and 'memory allocation' in your conscience rather than actual questions.
+*/
+
+Paradigm [ Spellcasting Paradigm ] { Programming }
+? What is programming paradigm 
+?? What is programming 
+??? Programming ~ Automation 
+???? Automation 
+>>>>> Trialetic
+:::::: Automation ~ (Searching, Decision, Execution) ~ (Loop, Conditional Structures, Commands and Functions)
+::::::: Command ~ (Condition, Execution) 
+???????? Script 
+::::::::: Finite well Defined Sequence of Comands
+???????? Script X Automation 
+::::::::: Automation ~ Searching ~ Repetition ~ Indetermined Sequence of Comands
+>>>>> Contrast 
+:::::: Automation X Dependence 
+??? Programming ~ Language 
+::: Programming a method of automation using programming languages
+?? What is paradigm 
+??? Paradigm ~ Method 
+??? Paradigm ~ Heuristic 
+???? Heuristic 
+??? Paradigm ~ Principles 
+??? Paradigm X Multiplicity 
+???? Multiplicity ~ Indecision 
+???? Efficiency X Indecision 
+??? How to solve a problem 
+??? Paradigm ~ Solving Problems 
+??? Paradigm ~ Beliefs
+??? Paradigm X Theory 
+??? Programming Paradigm X Scientific Paradigm 
+:: Set of principles, heuristics, methods designed to solve programming problems efficiently.
+? What defines spellcasting paradigm 
+?? What defines something 
+::: Definition ~ Contrast ~ Difference
+::: Definition ~ Identity ~ Identification 
+?? Modelling ~ Problem Solving 
+::: Modelling ~ Understanding ~ Awareness
+::: Modelling ~ Mapping ~ Navigation ~ Awareness 
+?? How spellcasting paradigm models programming problems 
+??? Analogy ~ Modelling 
+:::: Analogy is a kind of dirty modelling, mapping concepts between similar processes.
+::: Mapping fantasy concepts through an analogy between programming and magic 
+'Programming is the closest thing to magic in our world.'
+?? How spellcasting paradigm handle A.I. code generation 
+::: A.I. usage and LLM usage are fundamental part of the magical world analogy 
+'Aversion to new technologies is aversion to magic. How much control you want in your project? This will dictate how you use magic.'
+::: /** Concept Mapping of Spellcasting Paradigm 
+1. Spellcasting : Spell is a function and casting is the use of the appropriate syntax.
+2. Oracles : Are the LLM's, a wizard should use it to craft new spells or consulting.
+3. Grimoires : list of existing spells, generaly crafted as a `cheat sheet comment block` format with aid of oracules. Grimoires can be safely handled by oracles. 
+4. Golems : the golem is the manually crafted part of code, managed primarly by humans, the golem should be as close as possible (have the form) of the project's logic. Golem could be the main file or any other file intended for this purpose.
+5. Codex : the codex are the crafted spells (framework).
+6. LLM Spellcrafting : humans design the spell (syntax) and ask for implementation for oracles.
+7. Golem Sculpting : can be or not be made by LLM's, golem sculpting is the creation of dummy and placeholder classes and functions for your project, it will be the 'skeleton' of your project.
+8. Golem Infusion : is the implementation of the dummies and placeholders of your project.
+9. Golem Craft : is the programming itself, the main objective of a wizard is the golem creation, the golem is the program which is designed to do some hard work. 
+10. Divination : Oracle consulting.
+11. Library : Official Documentation, Search Engines. */
+?? How spellcasting paradigm attacks the problem, what is the main strategy
+??? How spellcasting models the strategy to attack the problem 
+:::: Divide to conquer strategy, is a basic strategy to divide a problem in smaller defined subproblems 
+::::: The definition of a problem is the first step to attack the problem, know your enemy.
+????? Main Problem of Spellcasting and Subproblems 
+>>>>>> Trialetic of Spellcasting Paradigm 
+::::::: (Sculpting, Spellcrafting, Infusion) ~ (Golem Sculpting, Codex/Grimoire Maintenance, Golem Infusion)
+::: /** Trialetic of Spellcasting Paradigm
+1. Sculpting is golem sculpting. Spellcrafting can be the craft and management of grimoires or codex crafting. Infusion is golem infusion.
+2. A program is essentially a golem, is a magical being to do some hard work. So it can be naturally decomposed in sculpting, spellcrafting and infusion subproblems.
+3. Spellcrafting and Codex Craft can be decomposed using the trialetic of spellcasting paradigm. These concepts are flexible enough to one consider the crafting of a difficult spell as a golem creation, which can be decomposed on sculpting, infusion and even spellcrafting of helper spells.
+4. Infusion is the last part, which the spells are cast with aid of grimoires, to make the golem functional. */
+
+/// END 
