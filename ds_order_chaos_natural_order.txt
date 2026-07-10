@@ -1,15 +1,17 @@
 /// BEGIN : ds_order_chaos_natural_order.txt 
 
-// The notation of structured socratic dialectical analysis which is the main method used in this document will not be explained in full detail. Neither the details of logic and dialetical projections. Guessing is an exercise for the reader. Futhermore, some questions serves only to allocate space in you memory, not to be answered, neither by you neither by me. 
+/* 
+The notation of structured socratic dialectical analysis which is the main method used in this document will not be explained in full detail. Neither the details of logic and dialetical projections. Guessing is an exercise for the reader. Futhermore, some questions serves only to allocate space in you memory, not to be answered, neither by you neither by me. 
+*/
 
-Theory [ of Natural Order | Order, Chaos and Equilibrium ] 
+Theory [ of Natural Order ] 
 ? What is the theory of natural order
 ? What is the concept of natural
-:: Predictable, Steady, Harmonious.
+:: Predictable, Steady, Harmonious
 >> Contrast 
 ::: unnatural, unfit, conflicting
 .
-Principle of Natural Order : 'Existences in our reality evolves preferentially on an natural order.'
+Principle of Natural Order : 'Existences in our reality evolves preferentially by an natural order.'
 ? What is natural order 
 ? What is the concept of existence 
 >> Definition by properties enumeration 
@@ -23,9 +25,21 @@ Principle of Natural Order : 'Existences in our reality evolves preferentially o
 ??? What is a closure by a property
 :::: in this context, a maximization of a class/set for elements which satisfies the property.
 :: Reality is a collection of existences connected by ability to interact with each other.
+?? Is the natural order the only way things evolves on reality
+.
+? Whats the purpose of reality 
+?? Can someone says that the purpose of reality is existence 
+??? Purpose ~ Sense ~ Direction 
+'The purpose of reality is their existences'
+? As the reality is the closure of existences, can we say that the purpose of reality is in itself, which is the evolution of their existences 
+?? Something that endanger the existence endanger the reality 
 .
 0 : Chaos 
+? What happens on absolute chaos 
+?? Can something exists on absolute chaos 
 1 : Order 
+? What happens on absolute order 
+?? Can something exists on absolute order
 Inexistence by Absolute Chaos : 'The absolute chaos prevent stable properties for any existence, so anything can exist but is so unstable that their properties vanishes'
 Inexistence by Absolute Order : 'The absolute order prevent transformation and evolution, everything is static and fixed, so everything is essentially dead.'
 Existences emerges from an equilibrium between chaos and order. 
@@ -35,7 +49,7 @@ Principle of Natural Order : (1%0)%(0%1)
 Roles of Order and Chaos : 'Chaos is necessary for evolution, but absolute chaos could lead to destruction. Order is necessary to preservation, but absolute preservation halts evolution.'
 Revolution : 'If there are necessary changes to be made in universe, then the chaos temporarly take precedence over order.'
 When the revolution tries to becomes the stable ruler then the revolution of revolution turns necessary.
-Revolution over Revolution is the Natural Order : 'There is no eternal revolution, because once the change and chaos becomes the rule, they becomes what needs to be changed, and the only way to change is to return to natural order.'
+Revolution over Revolution is the Natural Order : 'There is no eternal revolution, because once the change and chaos becomes the ruler, they becomes what needs to be changed, and the only way to change is to return to natural order.'
 Chaos and subsequent Revolution is a demand for change while Order and Restoration is a demand for harmony.
 .
 On Natural Order theory there are two kinds of evil, the absolute chaos, when the chaos wants to becomes the eternal ruler, and the absolute order, when the order suffocates the chaos, when there is no space for change and transformation and everythings becomes static.
@@ -53,12 +67,30 @@ Intellect dont belongs to same topology, it stays between, inside, as equilibriu
 :: Equilibrium ~ Intellect
 ::: Demand for reason, conscience, understanding 
 .
-The reality becomes a cycle of those driven-forces (Chaos,Order|Equilibrium) which essentially is the same driven-forces of our conscience/spirit (Emotion,Will|Intellect). The reality is designed to not be the eternal ruler, neither chaos, neither order, neither equilibrium are the rightful ruler, only the conscience which emerges from the trialetic relationship, the equilibrium over the relation of equilibrium, chaos and order is the consciente, and as the intellect and understanding is close to conscience, but cannot rule eternally over them, because the understanding is empty if not directed toward emotion and will.
-Order cannot be the eternal ruler, because will turn everything static, preventing evolution.
-So there is a rightful demand for change from Chaos. But once the Chaos becomes the ruler, it cannot be the eternal ruler, so there is a rightful demand for the revolution of revolution, which returns to order. But the cycle between rulers from Chaos to Order and Order to Chaos itself demands change, and the emergence of understanding, a demand for equilibrium. But the understanding will demand sometimes change, and will demand sometimes preservation, so the equilibrium becomes the third ruler which cannot be the eternal ruler, because once it becomes the third ruler the equilibrium of equilibrium moves the rightful claim away from equilibrium which cannot be static, but cannot be unstable. So this is the trialetical cycle of conscience, which turns to be complex as the problem of three bodies in physics.
+? As the equilibrium becomes one of three guiding forces, can the equilibrium be a third evil.
+:: Absolute equilibrium becomes absolute order, because it becomes static.
+:: One cannot focus on intellect ignoring the reality, so one cannot focus on equilibrium ignoring the chaos and order, because equilibrium emerges from the reality.
+1. The reality becomes a cycle of those driven-forces (Chaos,Order|Equilibrium) which essentially is the same driven-forces of our conscience/spirit (Emotion,Will|Intellect). 
+2. The reality is designed to not have an eternal ruler, neither chaos, neither order, neither equilibrium are the rightful ruler, only the conscience which emerges from the trialetic relationship, the equilibrium over the relation of equilibrium, chaos and order is the consciente, and as the intellect and understanding is close to conscience, but cannot rule eternally over them, because the understanding is empty if not directed toward emotion and will.
+3. Order cannot be the eternal ruler, because will turn everything static, preventing evolution.
+So there is a rightful demand for change from Chaos. 
+4. But once the Chaos becomes the ruler, it cannot be the eternal ruler, so there is a rightful demand for the revolution of revolution, which returns to order. But the cycle between rulers from Chaos to Order and Order to Chaos itself demands change, and the emergence of understanding, a demand for equilibrium. 
+5. But the understanding will demand sometimes change, and will demand sometimes preservation, so the equilibrium becomes the third ruler which cannot be the eternal ruler, because once it becomes the third ruler the equilibrium of equilibrium moves the rightful claim away from equilibrium which cannot be static, but cannot be unstable. 
+6. So this is the trialetical cycle of conscience, which turns to be complex as the problem of three bodies in physics.
+7. The trialectical cycle is the principle of natural order on dinamical perspective. In the same way as the trialetic is the topological dialectic on dinamical perspective. 
+8. The thesis of three demiurges is the thesis of three great evil forces, each one trying to disrupt the emergence of conscience by forcing the conscience to one direction and to one eternal ruler.
+/* Inventory : Natural Order
+1. Principle of Natural Order
+2. Inexistence by Absolute Chaos and Absolute Order
+3. Chaos Demand 
+4. Revolution of Revolution 
+5. Evil of Absolute Order and Evil of Absolute Chaos 
+5. The Emergence of Equilibrium 
+6. Trialectical Cycle and the Emergence of Conscience
+7. Principle of Natural Order and Trialectical Cycle
+8. The three demiurges */
 
 /// END 
-
 
 
 
