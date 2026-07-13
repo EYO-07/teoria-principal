@@ -1,19 +1,11 @@
 /// BEGIN : ds_order_chaos_natural_order.txt 
-
-/* 
-The notation of structured socratic dialectical analysis which is the main method used in this document will not be explained in full detail. Neither the details of logic and dialetical projections. Guessing is an exercise for the reader. Futhermore, some questions serves only to allocate space in you memory, not to be answered, neither by you neither by me. 
-*/
-
 Theory [ of Natural Order ] 
-? What is the theory of natural order
-? What is the concept of natural
+? What is the theory of natural order ? What is the concept of natural
 :: Predictable, Steady, Harmonious
 >> Contrast 
 ::: unnatural, unfit, conflicting
-.
 Principle of Natural Order : 'Existences in our reality evolves preferentially by an natural order.'
-? What is natural order 
-? What is the concept of existence 
+? What is natural order ? What is the concept of existence 
 >> Definition by properties enumeration 
 ::: 1. An existence has an identity.
 ::: 2. An existence has stable properties.
@@ -27,7 +19,7 @@ Principle of Natural Order : 'Existences in our reality evolves preferentially b
 :: Reality is a collection of existences connected by ability to interact with each other.
 ?? Is the natural order the only way things evolves on reality
 .
-? Whats the purpose of reality 
+? What is the purpose of reality 
 ?? Can someone says that the purpose of reality is existence 
 ??? Purpose ~ Sense ~ Direction 
 'The purpose of reality is their existences'
@@ -35,11 +27,9 @@ Principle of Natural Order : 'Existences in our reality evolves preferentially b
 ?? Something that endanger the existence endanger the reality 
 .
 0 : Chaos 
-? What happens on absolute chaos 
-?? Can something exists on absolute chaos 
+? What happens on absolute chaos ? Can something exists on absolute chaos 
 1 : Order 
-? What happens on absolute order 
-?? Can something exists on absolute order
+? What happens on absolute order ? Can something exists on absolute order
 Inexistence by Absolute Chaos : 'The absolute chaos prevent stable properties for any existence, so anything can exist but is so unstable that their properties vanishes'
 Inexistence by Absolute Order : 'The absolute order prevent transformation and evolution, everything is static and fixed, so everything is essentially dead.'
 Existences emerges from an equilibrium between chaos and order. 
@@ -79,7 +69,14 @@ So there is a rightful demand for change from Chaos.
 6. So this is the trialetical cycle of conscience, which turns to be complex as the problem of three bodies in physics.
 7. The trialectical cycle is the principle of natural order on dinamical perspective. In the same way as the trialetic is the topological dialectic on dinamical perspective. 
 8. The thesis of three demiurges is the thesis of three great evil forces, each one trying to disrupt the emergence of conscience by forcing the conscience to one direction and to one eternal ruler.
-/* Inventory : Natural Order
+.
+(Order,Chaos|Equilibrium) > Conscience 
+? Can the conscience be the fourth guiding force 
+? As the fourth guiding force, exists the fourth demiurge 
+? Is there a possibility of the fifth guiding force, a force between all four 
+'The conscience is the closure of possibilities of equilibrium, is a limit point of all possibilities of centers, is the ultimate center of a trialetic existence. So the emergence of any other center based on equilibrium is still conscience and just represents the evolution of conscience, that evolution dont have any special qualitative attribute to set it appart from conscience itself. There is nothing beyond fourth that is not the fourth itself.'
+'The three demiurges opposes the conscience, because as an emergent phenomena, the conscience cannot exists if any one of the three directions tries to rule forever.'
+/* Inventory : Natural Order Theory
 1. Principle of Natural Order
 2. Inexistence by Absolute Chaos and Absolute Order
 3. Chaos Demand 
@@ -89,14 +86,6 @@ So there is a rightful demand for change from Chaos.
 6. Trialectical Cycle and the Emergence of Conscience
 7. Principle of Natural Order and Trialectical Cycle
 8. The three demiurges */
-.
-(Order,Chaos|Equilibrium) > Conscience 
-? Can the conscience be the fourth guiding force 
-? As the fourth guiding force, exists the fourth demiurge 
-? Is there a possibility of the fifth guiding force, a force between all four 
-'The conscience is the closure of possibilities of equilibrium, is a limit point of all possibilities of centers, is the ultimate center of a trialetic existence. So the emergence of any other center based on equilibrium is still conscience and just represents the evolution of conscience, that evolution dont have any special qualitative attribute to set it appart from conscience itself. There is nothing beyond fourth that is not the fourth itself.'
-'The three demiurges opposes the conscience, because as an emergent phenomena, the conscience cannot exists if any one of the three directions tries to rule forever.'
-
 /// END 
 
 

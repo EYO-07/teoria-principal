@@ -79,8 +79,55 @@ Paradigm [ Spellcasting Paradigm ] { Programming }
 .
 Trialectical Schools:
 1. School [ of Masonry ] : 'techniques for golem sculpting.'
+? What can be done 
+:: Study Codex/Grimoires of frameworks to be aware of what can be done 
+? How can it be done
+>> Trialetic of Sculpting 
+::: (Schematics,Sculpting,Infusion) ~ (Schemes,Dummy Structures,Exchange of dummies for actual functions)
+???? How to design schemes for sculpting 
+::::: Pathlogic Notation 
 2. School [ of Librarian ] : 'techniques for codex creation and grimoire management.'
+? Grimoire Craft
+?? Inventory Craft 
+? Codex Craft 
+?? Naming 
+?? Purpose 
 3. School [ of Enchanting ] : 'techniques of magic infusion.'
+? Effective use of Grimoires and Codex 
 .
+Spiritual Activities : 'Draw spiritual energy. Transform chaos in order. Spiritual Activities draw spiritual energy (mana) and were more consuming. Spiritual activities are related to choice and creativity. Spiritual activities are more physical consuming than physical activities, because it consumes not only physical resources but spiritual resouces (mana).'
+Physical Activities : 'Predictable transform. Physical activities has less decision making steps, has less necessity to tranform chaos in order. Physical activities follows a natural flow, a natural and well-behaved sequence of actions. It draws more physical resources than spiritual resources.' 
+( Physical % Spiritual ) Activities : in natural order we try to put physical activities as the main tasks and spiritual activities as support tasks. A programming paradigm act as a natural ordering of programming, because it tries to reduce the chaos on programming creation, an natural ordering procedure tries to establish well-behaved activities and reduce the mana consumption on activities.
+1. Scripted Refactoring : Revision>Script>Refactoring : the intermediate script and two step activities reduces the chaos from both revision and refactoring.
+(Emotion>Will)%Intellect : we bypass intellect for physical natural activities and use intellect spiritual activity as support. This is called natural intellect bypass.
+2. Trialetic Spellcraft : Spell (Syntax>Infusion)%Sculpting 
+3. Trialetic of Programming : (Sculpting>Infusion)%Spellcrafting
+
+// Paradigm < Self-Programming * Spellcasting Paradigm
+/** Self-Sculpting : Dialetics
+1. (Concept < Model * Basis) ~ (Object < Interpretation * Model)
+2. Modelling < (Concept<Model*Basis) * Dialectical Modelling
+3. Modelling ~ Objectification ~ (Subjective>Objective) ~ (Chaos>Order)
+4. Dialectical Modelling ~ Dialectical.(Basis>Projection) ~ (Structure>Analogy)
+3. (*,~) ~ Point and Lines Basis
+4. Model < (Components,Relations) * (*,~)
+3. (A X B) ~ Contrast Dialectical Basis
+4. (Space,Time) ~ (Static,Dynamics) ~ 
+4. (Space,Time) ~ (Static Mapping, Relation) ~ (Spatial Modelling, Dynamical Modelling)
+4. External(Internal) ~ Topological Dialectical Basis 
+5. Body(Mind) ~ External(Internal) 
+1. Emotion,Will|Intellect ~ Perception,Response|Processing
+2. Emotion,Will|Intellect ~ Feel,Will|Understanding
+3. Emotion > Will % Intellect
+4. Subject % Object
+*/
+/** Self-Sculpting : Natural Order 
+1. (0,1)~(Chaos,Order)
+2. Order%Chaos ~ Equilibrium > Reality(Existence)
+3. (Chaos>Order)%Equilibrium ~ (Emotion>Will)%Intellect 
+4. Conscience ~ (Emotion,Intellect,Will) ~ (Chaos,Equilibrium,Order)
+*/
+/** Self-Sculpting : Spellcasting Paradigm
+*/
 
 /// END 
