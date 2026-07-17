@@ -1,0 +1,578 @@
+/// BEGIN 
+/* Naturally Induced Theory:
+Naturally Induced < (Minimalist,Stepwise,Constructive)
+Minimalist ~ avoid unnecessary.
+Stepwise ~ minimize leap of faiths.
+Constructive ~ construct from what has been build. 
+*/
+'The opposite of naturally induced is esoterical.'
+/* Dialectical Projections of Logic:
+Logic < (Statement,Inference,Reason)
+Statement ~ True X False
+Inference ~ Allowed X Forbidden 
+Reason ~ Valid X Invalid 
+Reason ~ stream of true statements expanded with allowed inferences 
+(Statement X Inference) ~ (Horizontal X Vertical)
+(Object < Analogy * Similar)
+(Object < Interpretation * Model)
+Reason < Formal Logic * Mechanical Process 
+Formal Logic X Mind Reason ~ Objective X Subjective ~ Definite X Inconstant
+Formal Logic ~ Formulas 
+Statements < (Operators,Variables,Symbols) * Formal Logic 
+Inference ~ Special Statement which Allows the Expansion of the Reason 
+(Statement,Inference) ~ (Object,Relation) ~ (Space,Time)
+Logic < (Statement,Inference){Reason} * (Space,Time)
+*/
+'Logic is a projection of reasoning as a mechanical process.'
+/* Inferential Trialetic:
+( * // *, * / * , (?,:) ) ~ (Inference,Conjunction,Proposition)
+1. Inference Inferential Operator
+... allow the expansion and contraction of reason 
+2. Conjunction Inferential Operator
+... allow joining and detach statements
+3. Proposition Inferential Operators 
+... ? X means that X is a proposition to be tested on subreason 
+... ::X means that X is on subreason
+*/
+'Can you perform logic deduction without any of the inferential trialectic?'
+/* The Read/Write Inferential Operators:
+... inferences represents what we see an what was allowed as the manager of the reason
+... only allowed inferences can be added directly to the reason 
+... we as thinkers cant see what is beyond the starting zero 
+<< I ... means that I is an action that can be performed by the thinker
+>> X ... is an statement about the thinker which means, X was seen before in the reason 
+*/
+'Can you perform deductive logic without been able to recognize and to act?'
+/* The Inference Inferential Operator:
+// ... is the inference inferential operator, because is the inference itself 
+<< //X ... means that X can be added freely
+//X ... if already stated is better to omit the <<
+<< X//Y ... means that if one sees X, Y can be added to the reason
+... << ( >> (<< X//Y) ) // << ( (>> X) // (<< //Y) ) 
+... avoid autistic overexpression of statements like this 
+... which is recursive-infinite, confusing and pointless.
+>> X//Y ... means that it was seen in the reason that Y was after X
+0>> X ... means that X was seen after zero, not been the zero himself
+<< (0>> X) // X ... if you see X after the starting zero then you can repeat it
+>> (::X//::Y) ... means that it was seen in a subreason that Y was after X 
+*/
+
+/** Naturally Induced Logic:
+0 ... starting point, 0 is false
+... the starting zero is the upper-boundary of the reason 
+... (i)I ~ means that I is an allowed inference 
+... we can omit if the statement has inferential operators
+... (f)I ~ means that F is a forbidden inference 
+... ?X ~ means that X is a proposition
+... if a proposition is an inference, then their values could be (allow,forbidden)
+... inference ~ action 
+... if a proposition is a statement, then their values could be (true,false)
+... proposition ~ static 
+(f) //0 ~ adding zero is forbidden on the main reason 
+//1 ~ adding 1 or truth is allowed on main and any subreasons 
+1 ... 1 is true 
+... * \ * is the strict conjunction inferential operator 
+... X\Y means that Y was find after X and not X itself
+X\Y // Y ... strict detach 
+X\Y // X\Y
+... * /// * is the equivalence inferential operator 
+(X // Y)\( Y // X ) // ( X /// Y )
+( X /// Y ) // (X // Y)
+( X /// Y ) // (Y // X)
+0\X // X ~ we can repeat allowed inferences or true statements
+(f) 0 // 0 ~ adding zero after the starting zero is forbidden
+0\X // (// ::X) ~ we can repeat allowed inference or statements on subreasons 
+
+
+(f) * / 0 ~ conjoining with zero is forbidden
+(f) 0 / * ~ conjoining with zero is forbidden
+
+( X\Y / Y\Z ) // X\Z ~ 
+( 0\X / X\Y ) // (X/Y)  ~ you can conjoin two inference or statements 
+1/1
+(X/Y) // X ~ you can detach from conjunction 
+
+? (X/Y) // (Y/X)
+:: X/Y
+:: X
+:: ? X/Y // 0\Y
+:: 0\Y
+:: X/Y
+:: X
+
+(X/Y) // (Y/X) ~ you can commute the conjunction inferential operator 
+X\Y // (X // Y) ~ contraction, if Y is find after X we can add (X//Y)
+(X / ::X\::Y) // Y ~ contraction from subreason
+0//1
+1//1
+(? X//Y) // ::X ~ detach of hypothesis on subreason 
+... ?X represents a proposition to be tested
+... an inferential proposition can be 
+
+? ( X / (X // Y) ) // (//Y)
+:: (X / (X // Y))
+
+
++ // ++ ~ contraction, if Y is find after X we can add X//Y
+
+
+
+? 1
+:: //1
+:: 1
+
+
+0 ... starting zero
+... (i) inferential component, inferences are instruments to expand the reason
+... inferences have the values (allowed,forbidden) ~ (i,f)
+... statements have the values (true,false)
+(i) you are free to add allowed inferences to the reason 
+(f) you are forbidden to add forbidden inferences to the reason 
+... // inferential operator of inference, we call inference, because it is the inference itself
+(i) //1 ... you can add truth to the reason freely
+1
+(f) //0 ... you cant add zero to the reason after the starting zero
+(i) ( (i)X ) // X ... you can add a inference as statement if allowed  
+//1
+(f) ( (f)X ) // X ... adding forbidden inference as statement is forbidden
+... * inferential operator of substitution, could be a statement or inference 
+... + is an statement 
+(i) //* ... you can repeat any previously accepted statement or inference
+(i) // (* // **) ... ** means that it should be after the other statement on the reason 
+0//1
+0//**
+(i) X // (true)X ... if was accepted previously as statement, his value is true.
+
+... X,Y,Z are variables for statements, unless stated otherwise
+... A,B,C are variables for inferences, unless stated otherwise 
+(i) ( (i)X ) // X ... you can add an allowed inference as a statement
+
+... starting zero is the first statement, representing the new beginning
+
+( * // *, * / * , ? )
+
+
+
+
+
+//1
+1
+
+
+... Subreason ~ Experiment
+... Subreason inherits inferences and valid statements from parent reason
+... Zeroes on subreason dont affect the reason, so it can be used for proof by absurd
+
+
+(f) (::X // ::0 ) // X
+
+... * // * ~ Inference (Vertical Imply)
+(i) 0 // *
+(f) * // 0
+
+
+... (Reason,Inference,Statements)
+... Reason ~ Stream of Statements
+... Statement ~ Proposition ~ Information
+... Inferences ~ Special Statement Used to Allow Expansion of the Reason adding valid Statements
+... Inference Boundaries ~ Inference Cannot uses Statements Before the Closest 0
+
+... (+) means added without proof 
+
+0 ~ Start, Restart
+
+... // X ~ means that X can be added freely
+... X // Y ~ means that if X is on boundary then Y can be added freely
+... 0 // X ~ Inference can include the zero in the beginning
+... this inference is called inference because this inference is the inference itself
+... without an inferential statement you cant expand the reason
+
+... X // 0 ~ Inferential Absurd, means that you are using statements before the closest zero 
+
+(+) // 1 ~ Accept the truth
+1
+
+(+) (X\!X) // ( (X//0) // !X ) 
+
+
+
+(i) * / * ~ Conjunction Inference (Vertical And)
+... a valid conjunction inference cannot use the starting zero, this 0/X or X/0 is forbidden
+(+) X/Y // Y/X ~ commutativity
+(+) X/Y // Y ~ detatch 
+(i) ? ~ Opening of an Experiment ~ Proposition
+... to test propositions we use subreasons
+... a::X means X is on subreason 'a'
+... If ommited the name of subreason :X, :Y, they belong to same subreason"
+... 1// X represent the end of demonstration for ?X 
+... demonstrated inference statements are accepted as inference 
+... with ? the thinker can generate new inferential statements deductively
+(+) // ?X ~ Experiment can be added freely 
+(+) ::X / ::Y // (X//Y) ~ Inference by Direct Proof
+(+) X // ::X ~ Subreason Inheritance of Statements
+(+) f(X) // f(::X) ~ Subreason Inheritance of Inferences 
+? X/Y // X 
+:: X/Y 
+:: X/Y // Y/X ... commutativity
+:: Y/X ... inference
+:: Y/X // X ... detatch 
+:: X 
+1// X/Y // X
+? 1/X // X 
+:: 1/X
+:: X
+1// 1/X // X ~ Repetition of True Statements
+? X/(X//Y) // Y 
+:: X/(X//Y)
+:: X
+:: X//Y
+:: Y
+1// X/(X//Y) // Y ~ Modus Ponens 
+? ( (X//Y) / (Y//Z) ) // X//Z 
+:: ( (X//Y) / (Y//Z) )
+:: (X//Y) ... detatch
+:: (Y//Z) ... detatch
+?? X//Z
+::: X
+::: X//Y ... inheritance 
+::: Y ... modus ponens
+::: Y//Z ... inheritance 
+::: Z ... modus ponens
+:: X//Z
+1// ( (X//Y) / (Y//Z) ) // X//Z ~ Contraction ~ Transitivity of Inference 
+(i) * /// * ~ Equivalence Inference 
+(+) (X /// Y) // (X // Y)
+(+) (X /// Y) // (Y // X)
+(+) (X//Y)/(Y//X) // (X///Y)
+
+... := defines partially the value for an operator
+... [X] is the functional notation for operator X
+... boolean operators are defined by values 1,0 
+... we omit (+) from := statements
+= ~ Equal Boolean Operator 
+... there is a distinction between boolean operators and inferential operators 
+... it should be proved or assumed the equivalence
+... boolean operators are called horizontal operators because it was designed to be writen on statements
+... inferential operators are represented as statements, but it is intended to be performed by the thinker 
+... so inferential operators are called vertical operators
+... because it was intended to be direct instructions for the thinker
+(1=1):=1
+(0=0):=1
+(1=0):=0
+(0=1):=0
+(+) X:=Y // X=Y ... equal by definition
+(+) X=Y /// Y=X ... commutativity
+(+) ( X=Y / f(Y) ) // f(X) ~ Substitution of Equals
+? X=1 // X
+:: X=1 
+:: 1 ... accept truth 
+:: X ... substitution of equals
+1// X=1 // X
+! ~ Negation Boolean Operator
+!1 := 0
+!0 := 1
+? !0
+?? 1 // !0
+::: 1
+::: !0 := 1
+::: !0 = 1 ... equal by definition
+??? ( (!0 = 1) / 1 ) // !0 ... substitution of equals
+::: ( (!0 = 1) / 1 ) // !0
+::: !0 
+:: 1 // !0
+:: !0
+1// !0
+? X=0 // !X
+:: X=0
+:: 1 ... always accept the truth
+:: !0 ... 1// !0
+:: !X ... substitution of equals 
+1// X=0 // !X
+? !!1 = 1
+:: !1 = 0
+:: !0 = 1
+:: !!1 = 1
+1// !!1 = 1
+? !!0 = 0
+:: !1 = 0
+:: !0 = 1
+:: !!0 = 0
+1// !!0 = 0
+
+(+) (X // 0) // !X ~ Proof by Reduction to Absurd
+
+(+) (0 // X) ~ Chaos and Meaningless
+
+(+) (X / !X) // 0 ~ Excluded Middle 
+
+
+... Violating the Boundaries /// Accept 0
+
+... Accepting 0 by Accident /// Violating Boundaries 
+
+(+) !(Y=1)=(Y=0) ? X // X=1 
+:: X
+:: 
+
+
+
+(i) * \ * ~ Disjunction Inferential Operator 
+(+) ( !X / X\Y ) // Y
+(+) X\Y /// Y\X 
+
+? (!X / X) // !(X \ !X)
+:: !X / X
+?? !(X \ !X)
+::: 
+
+? ( !(X/Y) /// (!X)\(!Y) ) /// ( (X//Y) // (!Y // !X) )
+
+(+) !!X=X ? ( X / (!X \ Y) ) // Y
+:: Z:=!X
+:: ( !Z / (Z\Y) ) // Y
+:: ( !!X / (!X \ Y) ) // Y
+:: ( X / (!X \ Y) ) // Y
+!!X=X // ( X / (!X \ Y) ) // Y
+
+? !(!X / X)
+:: 
+
+(+) (X//Y) // (!Y // !X)
+? ( !X / X ) // 0
+?? 1 // X \ !X
+
+
+
+? !X \ X
+:: ( !X / (!X\X) ) // X
+:: ( X / (!X\X) ) // !X
+
+[X,Y,Z] /// ( (X/Y // Z) / (X/Z // Y) / (Y/Z // X) ) ~ Trialogic Propositions
+
+? ( (X//Y) // (!Y // !X) ) /// ( !Y/(X//Y) // !X )
+?? ( (X//Y) // (!Y // !X) ) // ( !Y/(X//Y) // !X )
+::: (X//Y) // (!Y // !X)
+??? !Y/(X//Y) // !X
+:::: !Y/(X//Y)
+:::: (X//Y)
+:::: !Y
+:::: (X//Y) // (!Y // !X)
+:::: (!Y // !X)
+:::: !X
+:: ( (X//Y) // (!Y // !X) ) // ( !Y/(X//Y) // !X )_1
+?? ( !Y/(X//Y) // !X ) // ( (X//Y) // (!Y // !X) ) 
+::: !Y/(X//Y) // !X
+??? (X//Y) // (!Y // !X)
+:::: (X//Y)
+???? !Y // !X
+::::: !Y
+::::: (X//Y)
+::::: ( !Y / (X//Y) )
+::::: !Y/(X//Y) // !X
+::::: !X
+:::: !Y // !X
+::: (X//Y) // (!Y // !X)
+:: ( !Y/(X//Y) // !X ) // ( (X//Y) // (!Y // !X) )_2 
+:: ( (...)_1 / (...)_2 ) 
+:: ( (X//Y) // (!Y // !X) ) /// ( !Y/(X//Y) // !X )
+1// ( (X//Y) // (!Y // !X) ) /// ( !Y/(X//Y) // !X )
+
+
+(+) (X//Y) // (!Y // !X)
+? X // X=1
+:: X
+?? !(X=1) // !X
+::: !(X=1)
+::: X
+::: 
+
+
+
+? ( !!X=X , X//(X=1), !X // X=0 )
+(+) !!X = X
+(+) X // X=1
+? !X // X=0
+:: !X
+:: (!X) = 1
+?? !(!X) = 0
+::: (!X) = 1
+::: !1 = 0
+::: !!X = 0
+:: !!X = 0
+:: X = 0
+(+) X // X=1
+(+) !X // X=0
+? !!X = X
+?? (!!X=X)=1
+::: 
+
+? X=0 // !X=1
+:: X=0
+:: !X
+
+X=1||X=0
+
+( #X:t(X) ) /// ( t(0) / t(1) )
+
+#Y:( ( #X:t(X) ) // t(Y) )
+
+( #X,Y,...:t(X,Y,...) ) // t
+
+X||!X
+(X//f(X)) / (!X//f(!X)) // f
+
+? (X//Y) // (!Y // !X)
+:: X//Y
+?? Y=0 // X=0
+::: Y=0
+::: 
+
+& ~ And Boolean Operator 
+1&1:=1
+1&0:=0
+0&1:=0
+0&0:=0
+
+? X/Y // X&Y
+:: X
+:: Y
+:: 
+
+? (X=1 & X=0) = 0 
+:: 
+
+? X // X=1
+::? (1/X=1) // X=1
+:: 
+
+? X&Y // X
+:: X&Y
+:: 
+
+? X=Y // !X = !Y
+:: X=Y
+::? (!X = !Y) = 1
+::: 
+
+? X=Y // #f:[f](X)=[f](Y)
+
+| ~ Disjunction Boolean Operator
+1|1 := 1
+1|0 := 1
+0|1 := 1
+
+? X=1 /// X
+::? X=1 // X
+::: X=1 
+::: 1
+::: X
+::1// (X=1 // X)
+::? X // X=1
+::: X
+::: 
+
+X | Y / !X
+
+0|0 := 0
+
+? !!X // X
+:: !!X
+:: 
+
+? X///Y /// !X///!Y
+::? X///Y // !X///!Y
+::: X///Y
+:::? !X // !Y
+:::: 
+
+? !(X=Y) /// ( !X = Y )
+:: 
+
+(1=0)=0
+
+!1 := 0
+
+X // X=0\X=1
+
+
+
+!0 := 1
+
+... #X:f(X) // (X=1 // f(X)=1) 
+... #X:f(X) // (X=0 // f(X)=1) 
+#X:f(X)=1 
+
+
+(X//Y)/(Y//X) // (X /// Y)
+
+? X=Y /// Y=X
+
+? X // !X = 0
+:: !X = 1
+:: !!X = !1
+:: !!X = 0
+
+
+
+X=Y / f(Y) // f(X) ~ Substitution of Equals
+X // X
+
+X / Y // X&Y
+X&Y // X
+X&Y // Y&X 
+* // * ~ Inference (Vertical Imply)
+// 1 ~ Accept the Truth 
+1 
+
+X / X->Y // Y ~ Inference Modus Ponens
+
+"a:: X means X is on subreason 'a'"
+"If ommited the name of subreason :: X, :: Y, they belong to same subreason"
+:: X / :: Y // X->Y ~ Inference by Direct Proof
+
+
+? X/Y -> X&Y
+:: X/Y
+:: X
+:: Y
+:: X&Y
+:: (X/Y -> X&Y) = 1
+
+(1=1):=1
+(0=0):=1
+
+? (X / X=Y) -> Y
+:: X ~ Repetition of Truth
+:: X=Y ~ Repetition of Truth
+:: Y ~ Substitution of Equals
+(X / X=Y)->Y ~ by Direct Proof
+
+
+
+? (X=1) -> X ~ Accept True Statements 
+:: X=1
+:: 1
+:: (1/1=X)->X ? (X / X=Y) -> Y
+:: 1/1=X  
+
+? X // 0
+:: X=1
+:: 
+:: 0
+
+(X // 0) ... X is before the starting zero 
+(0 // X) ... X is after the starting zero 
+
+(+) (X//0) ~ Inferential Absurd, because it means that X is before an zero 
+
+
+
+
+
+
+*/
+
+
+
+
+/// END

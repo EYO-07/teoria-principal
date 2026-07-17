@@ -1,0 +1,107 @@
+/// BEGIN
+! Trialogic:=
+:: Trialetic Formal Logic 
+::: Formal Logic based on (Statement,Inference,Reason) as a Trialetic Projection of Formal Logic 
+/* Naturally Induced Theory:
+Naturally Induced < (Minimalist,Stepwise,Constructive)
+Minimalist ~ avoid unnecessary.
+Stepwise ~ minimize leap of faiths.
+Constructive ~ construct from what has been build. 
+*/
+'The Opposite of Naturally Induced is Esoterism.'
+/* Dialectical Projections Logic:
+(Object < Analogy * Similar)
+(Object < Interpretation * Model)
+Conscience < (Emotion,Intellect,Will) * (Feel,Understand,Choose) ~ (Perception,Processing,Response)
+Trialetic := ...
+Logic < (Statement,Reason,Inference) * Trialetic 
+1. Statement ~ True X False
+2. Inference ~ Allowed X Forbidden 
+3. Reason ~ Valid X Invalid 
+Reason ~:= stream of (true) [statements] expanded with (allowed) [inferences]
+Subreason ~:= inherit statements and inferences from the parents reasons
+Inference ~:= allow (valid) expansion of [reason] adding (true) [statements]
+Statement ~:= formula with (variables, operators, functions).
+(variables, operators, functions) ~ (statements,inferences,reasons)
+(Statement X Inference) ~ (Horizontal X Vertical)
+Reason < Formal Logic * Mechanical Process 
+Formal Logic X Mind Reason ~ Objective X Subjective ~ Definite X Inconstant
+Formal Logic ~ Formulas 
+(Statement,Inference) ~ (Object,Relation) ~ (Space,Time)
+(Statement,Inference){Reason} ~ (Object,Relations){Reality}
+*/
+'Formal Logic is a Objectification of Subjective Reasoning.'
+/* Logic < (Statement,Reason,Inference) * Trialetic
+Statements:
+... [statements] can have values of (true) or (false) 
+Reason and Subreasons:
+... a (valid) [reason] was expanded only through (allowed) [inferences]
+... using a (forbidden) [inference] on a [reason] turn it (invalid)
+... a (valid) [reason] only accepts (true) [statements] 
+... adding a (false) [statement] on a [reason] turn it (invalid)
+... zero is the only statements that is false but is accepted as starting point of a reason
+? How to test a statement
+?? How to test a statement as false by absurd
+::: If there is a subreason statement-invalid assuming the statement as true 
+:::: statement-invalid (sub)reason was demonstrated invalid by reaching a false statement
+:::: only using allowed inferences and inherited statements. 
+... the proof by absurd consists of finding a inference-valid subreason which is statement-invalid 
+Inferences:
+... inference is an action or conditional action
+... conditional action (observation,condition,action)
+... for an allowed inference, if a condition is satisfied by observation of the previous content of the reason, the the action stated by inference can be performed
+... a condition of the inference is a observation of the presence of a previously statement 
+... an action of the inference allows the addition of a statement 
+... inference ~ (condition-statement,action-statement)
+? How to test an inference 
+?? How to test an inference as allowed by direct-proof
+::: If there is a valid subreason beginning with the condition-statement and ending by the action-statement
+:::: Assume the condition of inference as a true statement on subreason 
+:::: Reach the statement which the inference allows to be added 
+:::: only using valid inferences and inherited statements 
+... the direct proof is a contraction of a path by inference-valid statement-valid subreason connecting a starting statement to a ending statement.
+... inference-invalid subreason are meaningless, inference-invalid is a operational error, means that you misuse or dont obey the rules of reasoning.
+... an inference can be stated by designing formulas 
+... a statement can be reasoned by reaching an absurd
+... a reason can infer by observing a direct proof 
+... this is the trialectical cycle of logic (Inference>Statement>Reason>Inference)
+Logic < Semiformal * Dialetics
+*/
+'Dialectical Modelling is Semiformalism.'
+/** Theory of Trialogic 
+0
+(forbidden) //0
+//1
+1
+X=1 // X
+X // X=1
+(X / Y) // Y
+(X / Y) // (Y / X) 
+? (0 / X) // 0
+:: 0 / X
+:: X / 0
+:: 0
+
+*/
+/// END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

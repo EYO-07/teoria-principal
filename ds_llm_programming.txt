@@ -1,0 +1,87 @@
+/// BEGIN : ds_llm_programming.txt 
+
+{ Programming, AI, LLM }
+? LLM, large language models 
+?? AI, artificial intelligence 
+? Vibecoding 
+?? Coding 
+::: Programming, software development 
+? How to code using LLMs 
+?? How to properly and effectively use LLMs for coding 
+1. Manager % Worker < Subject % Object < Order % Caos
+{ // Order % Caos Theory
+0 ~ Absolute Caos, inexistence by intense transformation
+1 ~ Absolute Order, inexistence by absense of change
+1%0 ~ Order becomes the subject, Caos becomes the object. Caos is responsible for instability and transformation, order is responsible for stability and preservation. The caos has supportive role giving only small changes, and the evolution is more conservative, with the order preserving as much as possible and keep the evolution stable.
+0%1 ~ Inversion of natural order. Caos give more intense changes and dont support or preserve what order keeps, there is a risk of losing everything, or change too much, the evolution becomes a revolution, unstable, unpredictable and risky.
+Stability % Instability < Order % Caos 
+Stable Evolution ~ Stability % Instability
+Stable Evolution is more safe and predictable
+Hypothesis of Natural Ordering and Inversion : the safe and predictable evolution needs to reject the inversion of natural ordering. 
+Subject % Object < Order % Caos ~ Subject % Object relationship is derived from Order % Caos relationship
+1. Object has supportive role 
+2. Object has more responsibility for transformation 
+3. Subject has a conservative role 
+4. Subject should protect good properties 
+5. Subject should filter the proposed changes 
+}
+::: Human % LLM ~ Manager % Worker ~ Subject % Object ~ Natural Order
+- Humans should act as a manager for an objective, and LLMs should have supportive role. The inversion of this natural order is called vibecoding, which essentially gives the LLMs more authority to transform, leading to risky and unsafe project development. 
+?? As a manager, what is the human responsability 
+::: Problem/Objective, Constraints, Revision/Filtering ~ Trialetic 
+{ // Trialetic from Dialetic Projection 
+1. Dialectical Basis is a conceptual structure. In the same fashion as linear algebra, you can model things by projecting a concept using a dialectical basis. 
+2. Trialetic is a basis with three components (Perception, Processing, Response) (Emotion, Intelect, Will) (Begin, Middle, End)
+}
+:::: The human gives a problem and objective, ensuring proper constraints in order to prevent misunderstandings or unnecessary features, and has the ultimate role of revise/filter the result.
+1. Vibeprompting : gives a problem to LLM with ill constraints and expect the best.
+2. Prompt Engineering : gives a problem to LLM and work on proper constraints to better achieve the goal.
+3. Magical Oriented Programming : ...
+/** MOPP : Magic Oriented Programming Paradigm 
+
+... programming is the closest thing to magic in our world
+
+Paradigm [ Magic Oriented Programming Paradigm ] : Concept mapping between programming and magic. 
+
+Motto [ Wizards uses Magic ] : An adept of MOPP should not have aversion of new technologies, if it can make your life easy like magic, then you should master it. 
+1. MOPP is specially designed for LLM's and code generators A.I.'s 
+2. How much control you want for your project? This will dictate how you use magic.
+
+Concepts { Magic Oriented Programming Paradigm }
+1. Spellcasting : Spell is a function and casting is the use of the appropriate syntax.
+2. Oracles : Are the LLM's, a wizard should use it to craft new spells or consulting.
+3. Grimoires : list of existing spells, generaly crafted as a `cheat sheet comment block` format with aid of oracules. Grimoires can be safely handled by oracles. 
+4. Golems : the golem is the manually crafted part of code, managed primarly by humans, the golem should be as close as possible (have the form) of the project's logic. Golem could be the main file or any other file intended for this purpose.
+5. Codex : the codex are the crafted spells (framework).
+6. LLM Spellcrafting : humans design the spell (syntax) and ask for implementation for oracles.
+7. Golem Sculpting : can be or not be made by LLM's, golem sculping is the creation of dummy and placeholder classes and functions for your project, it will be the 'skeleton' of your project.
+8. Golem Infusion : is the implementation of the dummies and placeholders of your project.
+9. Golem Craft : is the programming itself, the main objective of a wizard is the golem creation, the golem is the program which is designed to do some hard work. 
+10. Divination : Oracle consulting 
+11. Library : Official Documentation, Search Engines 
+
+{ Grimoire Craft, Golem Sculpting, Spellcast, Codex Spellcraft, Golem Infusion, Divination }
+Grimoire Craft % Divination, Library
+Golem Sculpting % Divination, Library 
+Golem Infusion % Spellcast { Grimoire Spellcast, Codex Spellcast } 
+Codex % Divination, Library
+
+... once the project begins these will be the main activities for development
+... (Golem Sculpting, Codex/Grimoire Maintenance, Golem Infusion)
+
+... Every time you need to manually write a code, that is considered golem craft, so if you manually write a spell in the codex, the wizard should understand the activity as golem craft, so mentally you will perform that activity sculpting, crafting new helper spells, and performing infusion. The wizard should differentiate this from the global project organization.
+
+... (Sculpting, Spellcrafting, Infusion) is how a programmer sees the programming as a wizard.
+... (Sculpting, Infusion) is a shortcut workflow, when spellcraft isn't necessary if the spells necessary for the project is already in the codex or already in the built-in libraries from the grimoire.
+
+Workflow [ Programming ] { Magic Oriented Programming Paradigm } 
+-> Coding || Design || Dialetic | Logic | Workflow
+-> Coding || Design | Project Sculpting | & || $ Grimoire | &? || Sculpting | % || Spellcraft
+-> Coding || Design | Project Sculpting | & || $ Grimoire | &? || Sculpting | % | Infusion 
+
+*/    
+?? Which types of validation an human can do 
+::: 1. Manual revision or Static analysis tools.
+::: 2. LLM-Proof-Checking : uses a context-isolated LLM to revise the result.
+
+/// END

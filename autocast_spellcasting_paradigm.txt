@@ -1,0 +1,171 @@
+/// BEGIN : autocast.txt
+// Autocast ~ Spellcasting Paradigm 
+// Paradigm's Adept < Programming Yourself * Programming Paradigm 
+// ? Autocast { Spellcasting Paradigm }
+/** Self-Sculpting : Dialetics
+(Object < Analogy * Similar)
+(Concept < Model * Structure)
+? ~ Problem ~ Concept ~ Object
+(? < Interpretation * Model)
+Modelling := ... 
+Structure ~ (Concept A, Concept B, Concept C, ...)
+Basis ~ Structure
+Basis := ... Concept Structure 
+Dialectical Basis ~ Basis 
+Modelling < (?<Model*Basis) * Dialectical Modelling
+Dialectical Modelling := ... Modelling with Dialectical Basis
+Modelling ~ Objectification ~ (Subjective->Objective) ~ (Chaos->Order)
+Dialectical Modelling ~ Dialectical.(Basis>Projection) ~ (Structure>Analogy)
+(*,~) 
+* ~ nodes ~ existences ~ components
+~ ~ relation ~ properties ~ interaction
+Point and Lines Basis := ...
+Model < (Components,Relations) * (*,~)
+A X B ~ A against B ~ Contrast ~ Conflict
+Contrast Dialectical Basis := ...
+Definition < (Is,Not is) * Contrast 
+Definition < (Name,Properties) * (*,~)
+Concept Definition ~ ? 
+Concept Definition ?
+(Space,Time) 
+(Static,Dynamics)
+Space-Time Dialetical Basis := ...
+(Space,Time) ~ (Static Mapping, Relation) ~ (Spatial Modelling, Dynamical Modelling)
+Spatial Modelling ~ Components 
+Dynamical Modelling ~ Relations 
+Modelling < (Spatial Modelling, Dynamical Modelling) * (*,~)
+External(Internal)
+Topological Dialectical Basis := ...
+Body(Mind) ~ External(Internal) 
+Existence < (Identity,Interaction) * (*,~)
+Interaction(Identity) ~ External(Internal)
+~(*) ~ External(Internal)
+External(Internal) < [Input,Output](Processing) * Time 
+( Body(Mind), [Emotion,Will](Intellect) ) ~ (Space,Time)
+Emotion,Will|Intellect ~ Perception,Response|Processing
+Emotion,Will|Intellect ~ Feel,Will|Understanding
+(Emotion->Will)%Intellect ~ (Perception->Response)%Processing
+(Subject % Object) ~ (Main % Support)
+(Subject % Object) ~ Assimetric Relation 
+Natural Order Basis := ... 
+*/
+/** Self-Sculpting : Natural Order 
+0 ~ Start
+0 ~ Restart without creating anything
+// ~ Creation Tool 
+0 // 0 
+0 ~ Restart 
+// ~ Creation Tool (Vertical Imply)
+* // * ~ If not respect the boudaries will lead to restart 
+0 ~ Restart 
+// ~ Creation Tool 
+* // * ~ Cannot expand with things before the starting 0 
+* // 0 ~ Accepting 0 leads to restart
+0 ~ Restart 
+// ~ Creation Tool 
+* // * ~ If not respect the boudaries will lead to restart 
+0 ~ Restart 
+// ~ Creation Tool 
+* // * ~ Cannot expand with things before the starting 0 
+* // 1 ~ Accepting truth is always possible
+1 ~ Always Accept the Truth 
+1 ~ We can repeat true statements
+(1=1):=1
+(0=0):=1
+= ~ We can repeat a with equal substitution 
+( X=Y // f(X) ) // f(Y)
+1=0?
+1=0 ~ Contradiction
+1 
+0 ~ Restart 
+// ~ Creation Tool 
+* // * ~ Cannot expand with things before the starting 0 
+* // 1 ~ Accepting truth is always possible
+1 ~ Always Accept the Truth 
+1 ~ We can repeat true statements
+(1=1):=1
+(0=0):=1
+= ~ We can repeat a with equal substitution 
+( X=Y // f(X) ) // f(Y)
+(1=0):=0
+(0=1):=0
+!0:=1 ~ Deny the False is True 
+!1:=0 ~ Deny the True is False 
+!!X=X ~ Tautology 
+
+-> ~ Horizontal Imply
+
+(X // X->Y) // Y ~ Modus Ponens
+* // * ~ Cannot expand with things before the starting 0
+(X // Y) // X->Y ~ Equivalence of Vertical and Horizontal Implies
+1->1 ~ From Accepting Truth
+0->1 ~ From Restart
+!0:=1 ~ Deny the False is True 
+!1:=0 ~ Deny the True is False 
+!!X=X ~ Tautology 
+(1->0,0->1) ~ Invariants
+1->0?
+1->0=1
+1->0
+0 ~ Modus Ponens, Restart
+1 
+1 ~ We can repeat true statements
+= ~ We can repeat a with equal substitution 
+(1=1):=1
+(0=0):=1
+(1=0)=0 ~ Avoid Contradiction
+(0=1)=0 ~ Avoid Contradiction
+-> ~ Horizontal Imply
+// ~ Vertical Imply 
+(X // X->Y) // Y ~ Modus Ponens
+(X // Y) // X->Y ~ Equivalence of Vertical and Horizontal Implies
+1->1 ~ From Accepting Truth
+0->1 ~ From Restart
+!0:=1 ~ Deny the False is True 
+!1:=0 ~ Deny the True is False 
+!!X=X ~ Tautology 
+(1->0,0->1) ~ Invariants
+1->0?
+1->0=0
+1&1:=1
+1&0:=0
+0&1:=0
+0&0:=0
+0|1:=1
+1|0:=1
+1|1:=1
+0|0:=0
+!(X&Y) = (!X | !Y) ~ Tautology
+(X//Y)//(X&Y)
+(X&Y)//X
+(X&Y)=(Y&X)
+
+( X // (!X|Y) ) // Y
+(X->Y)=(!Y -> !X) ~ Tautology 
+(X->Y) // (!Y -> !X) ~ Modus Tollens (Horizontal)
+(X->Y // !Y) // !X ~ Modus Tollens (Vertical)
+(0->0)=1 * Modus Tollens 
+(1->0,0->1) ~ Invariants
+
+0->1 = 1
+0->X = 1 ~ Tautology 
+0 ~ Everything is True
+Everything is True X Contrast 
+Everything is True X Definition
+0 ~ Nothing 
+0 ~ Restart
+Chaos ~ 0
+Order ~ 1
+(0,1) ~ (Chaos,Order) ~ (Desctruction,Preservation) ~ (Restart,Continuity)
+Order%Chaos ~ Equilibrium > Reality(Existence)
+(Chaos>Order)%Equilibrium ~ (Emotion>Will)%Intellect 
+Conscience ~ (Emotion,Intellect,Will) ~ (Chaos,Equilibrium,Order)
+Natural X Artificial
+Natural X Abrubt 
+Natural ~ Acceptance
+Artificial X Acceptance
+*/
+/** Self-Sculpting : Spellcasting Paradigm
+*/
+
+/// END

@@ -103,9 +103,9 @@ Physical Activities : 'Predictable transform. Physical activities has less decis
 2. Trialetic Spellcraft : Spell (Syntax>Infusion)%Sculpting 
 3. Trialetic of Programming : (Sculpting>Infusion)%Spellcrafting
 
-// Paradigm < Self-Programming * Spellcasting Paradigm
+// Paradigm < Self-Programming * Programming Paradigm 
 /** Self-Sculpting : Dialetics
-1. (Concept < Model * Basis) ~ (Object < Interpretation * Model)
+1. (Concept < Model * Basis) ~ (Object < Interpretation * Model) ~ (Object < Analogy * Similar)
 2. Modelling < (Concept<Model*Basis) * Dialectical Modelling
 3. Modelling ~ Objectification ~ (Subjective>Objective) ~ (Chaos>Order)
 4. Dialectical Modelling ~ Dialectical.(Basis>Projection) ~ (Structure>Analogy)
@@ -131,3 +131,20 @@ Physical Activities : 'Predictable transform. Physical activities has less decis
 */
 
 /// END 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
