@@ -1,5 +1,6 @@
 /// BEGIN
-! Trialogic:=
+/// The Trialogic is exposed as a c/c++comment-blocks to avoid the trap of demiurge.
+! Trialogic := ...
 :: Trialetic Formal Logic 
 ::: Formal Logic based on (Statement,Inference,Reason) as a Trialetic Projection of Formal Logic 
 /* Naturally Induced Theory:
@@ -31,58 +32,359 @@ Formal Logic ~ Formulas
 (Statement,Inference){Reason} ~ (Object,Relations){Reality}
 */
 'Formal Logic is a Objectification of Subjective Reasoning.'
-/* Logic < (Statement,Reason,Inference) * Trialetic
-Statements:
-... [statements] can have values of (true) or (false) 
-Reason and Subreasons:
-... a (valid) [reason] was expanded only through (allowed) [inferences]
-... using a (forbidden) [inference] on a [reason] turn it (invalid)
-... a (valid) [reason] only accepts (true) [statements] 
-... adding a (false) [statement] on a [reason] turn it (invalid)
-... zero is the only statements that is false but is accepted as starting point of a reason
-? How to test a statement
-?? How to test a statement as false by absurd
-::: If there is a subreason statement-invalid assuming the statement as true 
-:::: statement-invalid (sub)reason was demonstrated invalid by reaching a false statement
-:::: only using allowed inferences and inherited statements. 
-... the proof by absurd consists of finding a inference-valid subreason which is statement-invalid 
-Inferences:
-... inference is an action or conditional action
-... conditional action (observation,condition,action)
-... for an allowed inference, if a condition is satisfied by observation of the previous content of the reason, the the action stated by inference can be performed
-... a condition of the inference is a observation of the presence of a previously statement 
-... an action of the inference allows the addition of a statement 
-... inference ~ (condition-statement,action-statement)
-? How to test an inference 
-?? How to test an inference as allowed by direct-proof
-::: If there is a valid subreason beginning with the condition-statement and ending by the action-statement
-:::: Assume the condition of inference as a true statement on subreason 
-:::: Reach the statement which the inference allows to be added 
-:::: only using valid inferences and inherited statements 
-... the direct proof is a contraction of a path by inference-valid statement-valid subreason connecting a starting statement to a ending statement.
-... inference-invalid subreason are meaningless, inference-invalid is a operational error, means that you misuse or dont obey the rules of reasoning.
-... an inference can be stated by designing formulas 
-... a statement can be reasoned by reaching an absurd
-... a reason can infer by observing a direct proof 
-... this is the trialectical cycle of logic (Inference>Statement>Reason>Inference)
-Logic < Semiformal * Dialetics
+/* Dialectical Atom 
+... (A,B) Atom is dialectical atom if they are defined at 'same time'
+... dialectical atom is useful when a concept depends on another mutually
+... ideally an atom cannot express otherwise 
+... there is no natural, stepwise and constructive procedure to define one without assuming the other 
+... contrast dialectic used on definitions of value are dialectical atoms
+1. (true,false) : true is what is not false, false is what is not true.
+2. (allowed,forbidden) : allowed is what is not forbidden, forbidden is what is not allowed 
+3. (equal,diferent) : two things are equal if they are not different, two things are differente if not equals
+... Trialectical atom is an atom of tree components.
+... as the dialectical atoms, trialectical atoms are defined at 'same time'.
+... for the theory of dialectical projections, a concept can be recursively divided in dialectical atoms.
 */
-'Dialectical Modelling is Semiformalism.'
-/** Theory of Trialogic 
-0
-(forbidden) //0
-//1
-1
-X=1 // X
-X // X=1
-(X / Y) // Y
-(X / Y) // (Y / X) 
-? (0 / X) // 0
-:: 0 / X
-:: X / 0
-:: 0
+'Atoms are inevitable? Atoms are the limit of natural induction.'
+/// Its assumed from here that when something is projected into a dialectical basis, its announced as an atom 
+/// ... even if it could be done otherwise 
+/// A concept can be recursively divided in dialectical atoms. 
+/// ... can be divided in atoms and there concepts can be atomized again.
+/// ... there are three demiurges, each one trying to flatten the conscience to become one/two dimensional
+/// ... the demiurge of intellect steals your focus from reality and trap your mind in abstractions
+/// ... to avoid the trap of demiurge the recursive atomization must be clear and short
+/* Trilogical Atom (Statement,Reason,Inference)
+(Statement,Reason,Inference)
+1. Statement : true or false values
+2. Reason : statements linked by inferences
+... reason can be valid or invalid 
+3. Inference : inferences allow the expansion of reason
+... inferences can be allowed or forbidden 
+*/
+/* Statements
+Statement < (Formal Statement X Informal Statement) * (Objective X Subjective) ~ (Real X Mind)
+1. Formal Statement : symbolic, using operators, functions and variables. 
+2. Informal Statement : expressed using ordinary language. 
+*/
+/* Formal Statement (Variables,Operators,Functions) 
+Formal Statement < (Variables,Operators,Functions) 
+1. Variables : can be substituted by its value in order to evaluate a statement
+2. Operators : combine variable values returning a evaluated value 
+3. Functions : is a abstraction for an expression which combine variables to return a value 
+*/
+'As trialogic a kind of formal logic, we are interested in formal statements.'
+/* Reasons and Subreason 
+1. A valid reason was generated only with allowed inferences 
+2. Using a forbidden inference on a reason turn it invalid 
+3. A valid reason only accepts true statements 
+3. zero is the only statement that is false, but accepted as starting point to a reason 
+4. subreasons inherit true statements and allowed inferences from the parent reason 
+5. zeros on subreasons dont affect the reason 
+6. A valid subreason can be shortened to an allowed inference, which is called contraction
+*/
+/* Inferences 
+Inference < (Condition,Action){(sub)reason} 
+1. Inference Condition is interpreted by the thinker 
+2. If the thinker concludes that a condition is satisfied then he can perform an action 
+3. The action of inference is the permission for adding statements to the (sub)reason
+4. An evaluated inference is a statement, so (allowed)X as inference has value of true or false 
+... Inference definitions of operators must be stated informally. 
+... Inferences are the definition of how to operate 'mechanically' on formal logic. 
+... Inferences comes before the 'mechanics' of formal logic.
+*/
+/* Inference Atom Operators ( / , //, ! )
+( * // * )
+is the inference inferential operator
+the boundary of a reason is everything below the starting zero and the current position of the reason 
+X // Y means that you can add Y if you see X previously on the reason 
+( * / * )
+is the conjunction inferential operator 
+X / Y means that we've seen X and Y before inside the boundaries of reason excluding zero.
+( * /// * )
+is the equivalence inferential operator 
+X /// Y means both X // Y and Y // X
+we dont consider it as one of the three, because if adds little to no value 
+should be considere just a notation 
+( !* )
+is the inferential operator of negation 
+it flips the value of the statement or inference 
+... we consider the disjunction less-natural and must be defined later, because operationally the or is related to possibilities, which requires the imagination of copies of the reality and the ability to compare them.
+*/
+/* Statement Atom Operators ( =, &, () )
+( =, &, () )
+1. = : equal value operator 
+2. & : conjunction operator 
+3. () : precedence operator
+... simbolizes that the expression inside is evaluated before
+... functions are precedence operators with names 
+1 ~ true 
+0 ~ false 
+'Expression' = 'Value'
+'Expression' = 'Evaluation'
+(1=1) = 1
+(0=0) = 1
+(1=0) = 0
+(0=1) = 0
+(1&1) = 1
+(1&0) = 0
+(0&1) = 0
+(0&0) = 0
+... we set the evaluation or calculation process outside the reason environment
+... f(X) = f(0) if X has value zero 
+... we perform a calculation expanding horizontally 
+... X&Y = 0&1 = 0 for X=0 and Y=1
+... and we can conclude the contraction of evaluation as 
+... X&Y = 0
+... we could say that a contraction of evaluation is a kind of inference 
+... when f(X) = 1 for any value of X we say that f(X) is a tautology
+... we prove tautology directly by calculation of all possibilities
+*/
+/* Demonstration Trialetic Atom (Absurd,Direct-Proof,Annotation) ~ (Statement,Inference,Reason)
+Direct-Proof ~ Test a Inference 
+Absurd ~ Test a Statement 
+... in this text is assumed that a direct-proof is essentially a shortcut, a contraction from one statement to another. So it seems more natural to assign this close relation for testing inferences. 
+? X // Y
+:: X 
+:: ... 
+:: Y
+(allowed) X // Y
+... we start a proposition by ?
+... we start the direct proof opening a subreason ::
+... only using allowed inferences we need to reach Y 
+... in this text is assumed that the proof by reduction to absurd is natural for statements 
+? X
+:: X=0
+:: ...
+:: 0 
+X=1
+... we assume that the statement has the opposite value 
+... the objective of the proof by absurd is reaching zero by only allowed inferences 
+Values of Reason: 
+... a reason is statement-invalid inference-valid if it adds false statements which is the same as reaching zero by allowed inferences. That's why reaching zero isn't a contradiction if finded on subreasons.
+... a reason is absolute-valid if is statement-valid and inference-valid 
+... a reason cannot be inference-invalid, this is meaningless, it means that the thinker are not following the rules, is an operational error.
+... to test a inference we expand a subreason, to test a statement we expand a subreason, and how about testing reasons? We dont expand reasons to test reasons, this is the part that our conscience verify that reason is inference-valid, so its almost informal. 
+... as the test of reason is close to our conscience, we use commentaries in ordinary language to point out which inferences has been used on each step. 
+... we prove that a (sub)reason is valid(inference-valid) pointing out the inferences used on each step.
+*/
+'Commentaries has been glorified. But comments should be short and elegant, to avoid the trap of demiurge.'
+/* Tautologies
+... its possible to find special formalized statements that are always true, no matter what values their variables assume. These are called tautologies and are demonstrated directly by exaustion of possibilities.
+... the proof by calculation is one of the advantages of formalism, because it becomes similar to arithmetic.
+... tautologies inherit the benefits of mathematical formalism to logic.
+*/
+/** Main Reason of Logic [ Inferential Operators ] { Vertical Part }
+0 ... the starting zero, the false 
+... remember the zero is not considered to be on the reason, its just a boundary
+... 0 cant be inherited or used as premise to expand the main reason 
+... + means an artificial addition to the reason (axiom)
+(+) We assume that we know how to flip values to the opposite.
+(+) We assume that we know the identification of values of inferences as statement.
+(+) We assume the meaning of () precedence operator and the identification of him as implicit variable.
+(+) We assume the inferential meaning of proposition ? and subreason operators.
+(+) We assume the inferential meaning of demonstration by direct-proof of inferences.
+(+) We assume the inferential meaning of demonstration by absurd reduction of statements.
+? 1 ... by absurd
+:: 0 ... absurd hypothesis 
+:: reached zero 
+... we comment the end of demonstration, because we must always remember his inferential meaning.
+... when we prove something, we are interpreting it as a thinker.
+... remember, demonstration is two step.
+... first we show a reason writing a sequence of statements.
+... then we show that the reason is inference-valid, commenting the inferences used.
+1 
+.
+(+) // is the inferential operator of inference
+(+) X // Y means that you can add Y if you see X previously on the reason 
+? 1//1 ... by direct proof
+:: 1 ... premise
+:: 1 ... inherited 
+:: contraction 
+1//1
+? 0//1 ... by direct proof 
+:: 0 ... premise 
+:: 1 ... inherited 
+:: contraction 
+0//1 
+? (forbidden) 1//0 ... by absurd
+:: (allowed) 1//0 ... absurd hypothesis 
+:: 1 ... inherited 
+:: 0 ... inference
+:: reached zero
+(forbidden) 1//0
+? X // X ... direct proof 
+:: X ... premise 
+:: ? 1 // X ... direct proof, we need to go deeper
+:: :: 1 ... premise 
+:: :: X ... inherited 
+:: :: contraction 
+:: 1 // X ... proved 
+:: 1 ... inherited 
+:: X ... inference 
+:: contraction
+X // X ... we can repeat what was accepted as true
+... note that the subreasoning of subreasoning is a essential part of the trialogic 
+... this pattern put it closer to programming and sets apart from traditional logic 
+... but dont expect any surprises, the world hasnt changed a bit with it.
+.
+(+) / is the inferential operator of conjunction 
+(+allowed) 'If we see X and Y before inside the boundaries of reason excluding zero' // (X/Y)
+(+allowed) X/Y // Y ... detach
+(+allowed) X/Y // Y/X ... commute
+? (X / X//Y ) // Y ... direct proof 
+:: X / X//Y ... premise 
+:: X ... detach
+:: X//Y ... detach 
+:: Y ... inference 
+:: contraction
+(X / X//Y ) // Y ... its named the 'modus ponens' inference
+? (X//Y / Y//Z) // X//Z ... by direct proof
+:: (X//Y / Y//Z) ... premise
+:: Y//Z ... detach 
+:: (Y//Z / X//Y) ... commute
+:: X//Y ... detach 
+:: ? X//Z ... by direct proof
+:: :: X ... premise 
+:: :: X//Y ... inherits
+:: :: Y ... inference 
+:: :: Y//Z ... inherits
+:: :: Z ... inference
+:: :: contraction
+:: X//Z 
+:: contraction
+(X//Y / Y//Z) // X//Z 
+.
+(+allowed) (X /// Y) // ( X//Y / Y//X )
+(+allowed) ( X//Y / Y//X ) // (X /// Y)
+(+) ! is the inferential operator of negation 
+(+) ! is the flip operator, !X on reason means that the opposite value of X is true (1), so X is false (0)
+(+allowed) !!X /// X ... double negation
+(+allowed) (!X / X) // 0 ... contradiction
+? ( !Y / X//Y ) // !X ... by direct proof
+:: ( !Y / X//Y ) ... premise
+:: !Y ... detach
+:: X//Y ... detach
+:: ? !X ... by absurd
+:: :: !!X ... absurd hypothesis
+:: :: X ... double negation
+:: :: X//Y ... inherits
+:: :: Y ... inference
+:: :: !Y ... inherits
+:: :: 0 ... contradiction
+:: :: reached zero
+:: !X
+:: contraction 
+( !Y / X//Y ) // !X ... this is the so called 'modus tollens' inference
+? X//Y // (!Y // !X) ... by direct proof
+:: X//Y ... premise 
+:: ? !Y // !X ... by direct proof
+:: :: !Y ... premise
+:: :: X//Y ... inherits
+:: :: !X ... modus tollens 
+:: :: contraction
+:: !Y // !X ... proved
+:: contraction
+X//Y // (!Y // !X)
+? (!Y // !X) // X//Y ... by direct proof
+:: (!Y // !X) ... premise
+:: ? X//Y ... direct proof
+:: :: X ... premise 
+:: :: !Y // !X ... inherits
+:: :: !!Y ... modus tollens 
+:: :: Y ... double negation 
+:: :: contraction 
+:: X//Y ... proved
+:: contraction 
+(!Y // !X) // X//Y
+X//Y // (!Y // !X) ... this is the 'De Morgan's Law' for propositional logic
+? 1//X // X ... by direct proof
+:: 1//X ... premise 
+:: 1 ... inherits
+:: X ... modus ponens
+:: contraction
+1//X // X 
+? X // 1//X ... by direct proof
+:: X ... premise
+:: ? 1//X ... by direct proof
+:: :: 1 ... premise
+:: :: X ... inherits
+:: :: contraction
+:: 1//X ... proved
+:: contraction
+X // 1//X
+X /// 1//X ... lemma
+? 1 // (0//0)
+:: 1 ... premise
+:: (0//0) /// (1//1) ... particular case of De Morgan's Law
+:: (1//1) ... inherited
+:: 0//0 ... modus ponens 
+:: contraction 
+1 // (0//0)
+0//0
+... this last one 0//0 was concluded using the inference 1//(0//0) directly on main reason 
+... doing this every time makes the main reason dirty, so we should consider 
+(+allowed) You can demonstrate a statement directly if the subreason reach the statement and is both inference-valid and statement-valid subreason.
+... we can now define // as a statement operator because its defined for all possibilities of values
+(allowed) 1//1 
+(allowed) 0//0 
+(allowed) 0//1 
+(forbidden) 1//0 
+.
+(allowed) 1 /// 1
+(allowed) 0 /// 0
+(forbidden) 1 /// 0
+(forbidden) 0 /// 1
+1/1
+? ! 0/1 ... by absurd
+:: 0/1 ... absurd hypothesis
+:: 0 ... detach
+:: reached zero 
+(forbidden) 0/1
+? ! 1/0
+:: 1/0 ... absurd hypothesis
+:: 0 ... detach 
+:: reached zero 
+(forbidden) 1/0
+? ! 0/0 ... by absurd
+:: 0/0 ... absurd hypothesis
+:: 0 ... detach 
+:: reached zero 
+(forbidden) 0/0
+? !0 ... by absurd
+:: !!0 ... absurd hypothesis
+:: 0 ... double negation
+:: reached zero 
+(allowed) !0
+? ! !1 ... statement direct proof 
+:: 1 ... inherits
+:: 1 /// !!1 ... double negation 
+:: !!1 ... modus ponens 
+:: reached the statement by 2xValid reasoning
+(forbidden) !1
+... we are 'mathematizing' the logic, which is the meaning of formalizing the logic, so its natural to begin with inferences and moves toward statement operators.
+... all the inferential operators have values for all possibilities of values 
+... ( // , /// , / , !) ~ Vertical Inference Operators
+... this way we can define them as well defined statement operators.
+*/
+/** Main Reason of Logic [ Statement Operators ] { Horizontal Part }
+... = is the statement operator of equality.
+... its special because it has inferential properties.
+... those properties are assumed true to avoid the trap of demiurge.
+(+allowed) to substitute equals. If two variables has equality relation we can add to the reason the substituted version. If two expressions have equality relations we can substitute them as variables. 
+(+allowed) We can define variable names of expressions if the name was not been used before.
+(+allowed) X /// X=1
+(+allowed) X:=Y // X=Y
+... the mathematical evaluation is made preferentially horizontally, so to avoid the trap of demiurge 
+... we dont pretend we dont understand successive evaluations.
+(+allowed) X = ... = Y // X = Y
+(+allowed) (=) = (///), we consider in the context of statements, that = and /// are the same operator
+(+allowed) X = 1 or Y = 0 means the same as X is false or forbidden and Y is true or allowed 
+0&1 = 1
+... (-> , = , & ,¬ ) ~ Horizontal Statement Operators 
+*/
 
-*/
+
+
 /// END
 
 
