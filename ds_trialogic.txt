@@ -471,25 +471,13 @@ X//Y /// {X}Y
 :: reached 0
 {0}X
 ... if we admit a false statement, everything can be proved true and false
-
-
-? (closed):: ?X // :: X
-
-? { !X , X } Y
-:: ? Y
-:: :: !X ... priori
-:: :: X ... priori 
-:: :: X / !X ... conjunction definition 
-:: :: 0 ... contradiction 
-
-
 ... we are 'mathematizing' the logic, which is the meaning of formalizing the logic, so its natural to begin with inferences and moves toward statement operators.
 ... all the main inferential operators have values for all possibilities of values 
 ... ( // , /// , / , \ , ! ) ~ Vertical Inference Operators
 ... this way we can define them as well defined statement operators.
 */
-'...'
-/** Main Reason of Logic [ Statement Operators ] { Horizontal Part }
+'Cannot even prove anything without inference.'
+/** Main Reason of Logic [ Statement Operators / Boolean Logic ] { Horizontal Part }
 ... = is the statement operator of equality.
 ... its special because it has inferential properties.
 ... those properties are assumed true to avoid the trap of demiurge.
@@ -545,28 +533,47 @@ X//Y /// {X}Y
 ... we consider that the boundary of inference // operator start from the closest starting zero, but not including it, so even if (0->X) is always true, we cant perform an action starting from zero. 
 ... actually (1->X) means exactly that, (1->X) is equivalent to say that we can repeat X freely, because we can start an action of inference from 1. And as (1->X) not been a tautology, keep the logic intact.
 ... the zero from the main reason is the same of nothing, we cant step from nothing.
-... but reaching zero from a subreason has another meaning, as subreasons should always be inference valid, then reaching a zero can be safely reverted using De Morgan's Law. Reaching zero on subreason can be used as contraction, proving X as absurd is the same as proving (!X // 0), so we can use De Morgan's Law and conclude 1 // X.
+... but reaching zero from a subreason has another meaning, as subreasons should always be inference valid, then reaching a zero can be safely reverted using contraposition. Reaching zero on subreason can be used as contraction, proving X as absurd is the same as proving (!X // 0), so we can use De Morgan's Law and conclude 1 // X.
 .
-? !(X->Y) = X&!Y ... tautology
-:: {00} !(0->0) = 0&!0
-:: {00} !1 = 0&1
-:: {00} 0 = 0
-:: {00} 1
-:: {10} !(1->0) = 1&!0
-:: {10} !(0) = 1&1
-:: {10} 1 = 1
-:: {10} 1
-:: {01} !(0->1) = 0&!1
-:: {01} !1 = 0&0
-:: {01} 0 = 0
-:: {01} 1
-:: {11} !(1->1) = 1&!1
-:: {11} !1 = 1&0
-:: {11} 0 = 0
-:: {11} 1
-
-
-!(X&Y) = (X->!Y)
+(+) | is the disjunction booleand operator, the equivalent operator for \
+(0|0):=0
+(1|0):=1
+(0|1):=1
+(1|1):=1
+.
+... instead of testing tautologies by hand, you can simply use a program language, for example python
+... for instance this is the De Morgans Law in python using inline lambda syntax
+... t = lambda x,y: ( not (x and y) ) == (not x or not y)
+... t(0,0) and t(0,1) and t(1,0) and t(1,1) , should return true
+... the ability to prove things with inferences and structures of subreasons are important on higher mathematics, but for logic, its better to compute it with boolean arithmetic.
+... as we already proved the values of the equivalents of boolean operators, we can import the tautologic results of boolean arithmetic to inferential logic. 
+? ( X & Y ) & Z /// X & (Y & Z)
+:: t = lambda x,y,z: ( (x and y) and z ) == ( x and (y and z) )
+( X & Y ) & Z = X & (Y & Z) ... associative property of & operator 
+? ( ( X|Y ) | Z ) = ( (X | Y) | Z )
+:: t = lambda x,y,z: ( (x or y) or z ) == ( x or (y and z) )
+( ( X|Y ) | Z ) = ( (X | Y) | Z ) ... associative property of | 
+? X|(y & z) /// (x|y)&(x|z)
+:: t = lambda x,y,z: ( x or (y and z) ) == ( (x or y) and (x or z) )
+X|(y & z) /// (x|y)&(x|z) ... distributive property of | over &
+? X&(y | z) /// (x&y)|(x&z) ... distributive property of & over |
+:: t = lambda x,y,z: ( x and (y or z) ) == ( (x and y) or (x and z) )
+*/
+'Boolean Arithmetic is Mathematical Part of Logic.'
+/** The Inferential Operators of Demonstration (?,::)
+... we discussed values for inferences, statements, reasons 
+... Inferences ~ (Allowed,Forbidden)
+... Statements ~ (True,False) , (Known,Unknown)
+... Reasons ~ (Valid, Inference-Valid, Invalid)
+... but how about the values of propositions ?
+... we say that a proposition is closed, when we have achieved a demonstration, either for the statement or their negation. 
+... open propositions are unknown
+? ((closed)?X /// (closed)?!X)
+:: ? ((closed)?X // (closed)? !X)
+:: :: (closed)?X
+:: :: ? (closed)? !X
+:: :: :: (open)? !X
+:: :: 
 
 */
 
