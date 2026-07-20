@@ -181,7 +181,7 @@ Values of Reason:
 (+) We assume that we know how to flip values to the opposite.
 (+) We assume that we know the identification of values of inferences as statement.
 (+) We assume the meaning of () precedence operator and the identification of him as implicit variable.
-(+) We assume the inferential meaning of proposition ? and subreason operators.
+(+) We assume the inferential meaning of proposition ? and subreason :: operators.
 (+) We assume the inferential meaning of demonstration by direct-proof of inferences.
 (+) We assume the inferential meaning of demonstration by absurd reduction of statements.
 ? 1 ... by absurd
@@ -238,6 +238,7 @@ X // X ... we can repeat what was accepted as true
 :: Y ... inference 
 :: contraction
 (X / X//Y ) // Y ... its named the 'modus ponens' inference
+... is more common to state modus ponens as true, and starting from there, but in this text we assume that modus ponens is more complicated than inference, because it uses two operators.
 ? (X//Y / Y//Z) // X//Z ... by direct proof
 :: (X//Y / Y//Z) ... premise
 :: Y//Z ... detach 
@@ -383,28 +384,98 @@ X /// 1//X ... lemma
 ? (X / Y) /// !( !X \ !Y ) ... exercise
 ? !(X / Y) /// (!X \ !Y)  ... exercise 
 ... !(X \ Y) /// (!X / !Y) and !(X / Y) /// (!X \ !Y) are the De Morgan's Law which rules 
+... the distributive property of negation operator on conjunction and disjunction operators.
+... actually, we call that f distributes over g if f( AgB ) = fA g fB, so the De Morgan's Law rules another kind of distributivity, which interchanges the operators (/,\).
+... those property names are of special importance on the idea of objetification or reason by projection of reason to a mechanical process, because distribution and commutation are movements, which are very confortable to imagine, and so becomes easy to use, recognize and remember.
+? ( !X / ( X \ Y ) ) // Y ... by direct inference
+:: ( !X / ( X \ Y ) ) ... premise 
+:: !X ... detach
+:: X\Y ... detach
+:: ? Y ... by absurd
+:: :: !Y ... absurd hypothesis
+:: :: !X ... inherited
+:: :: !X / !Y ... conjunction definition
+:: :: !(X \ Y) ... De Morgan's Law
+:: :: (X \ Y) ... inherited 
+:: :: 0 ... contradiction 
+:: :: reached zero 
+:: Y
+:: direct proof 
+( !X / ( X \ Y ) ) // Y
+( X / ( !X \ Y ) ) // Y
+... (!X \ Y) acts like X//Y, in fact, they are equivalent.
+... cryptically many books define X//Y as (!X \ Y) which is absolutely unnatural.
+... the relation between ( / , \ , ! , // ) are one of the most important results of logic.
+? ( !X \ Y ) /// (X//Y)
+:: ? ( !X \ Y ) // (X//Y)
+:: :: ( !X \ Y )
+:: :: ? X//Y
+:: :: :: X 
+:: :: :: ? Y
+:: :: :: :: !Y
+:: :: :: :: !X \ Y
+:: :: :: :: !X
+:: :: :: :: X
+:: :: :: :: 0
+:: :: :: ::
+:: :: :: Y
+:: :: ::
+:: :: X//Y 
+:: ? (X//Y) // ( !X \ Y )
+:: :: X//Y
+:: :: ? (!X \ Y)
 
 .
-(+) { *,*,... } is called the priori inferential operator
+(+) { *,*,... } is the priori inferential operator
 ... priori inferential operators tells explicitly what can be inherit to the subreason of a proposition.
 ... {} works along with proposition operator ?
 ... at this point every proposition subreason is assumed to inherits things directly from the main reason, thats is the idea of priori statements, the priori statements are allowed to be inherited to the subreasons.
 ... so when we test ? X, we are implicitly saying ? { all statements before on the boundaries of main reason } X
 (+allowed) ?{X}Y // ::X
-... we are formalizing the proposition and subreasoning as a part of inferential formalism.
 (+allowed) ?X /// ?{...}X 
-... {...} means it is assumed everything before on the boundaries of main reason.
+... {...} means it is assumed everything before on the boundaries of main parent reason.
 (+allowed) the absurd-statement subreasoning ignores the priori statements so for ?{X}Y the absurd hypothesis is !Y.
-(+allowed) the subreasons 
+(+allowed) {X}Y // (X//Y)
+? X//Y // {X}Y ... direct inference proof
+:: X//Y ... premise
+:: ? {X}Y ... by absurd
+:: :: !Y ... absurd hypothesis
+:: :: X ... priori
+:: :: X//Y ... inherited
+:: :: Y ... modus ponens 
+:: :: !Y / Y ... conjunction definition 
+:: :: 0 ... contradiction 
+:: :: reached zero 
+:: {X}Y
+:: direct
+X//Y /// {X}Y
+... the way we define {...} is just another way to state inferences, because equivalence /// has the same value of equal operator on statement variables.
+... but it allow us to create contradictory priori statements freely because {0}X has the same meaning of 0//X, which is allowed as statement.
+... but the relevance of {...} is the expressiveness, when we propose something of the sort ?{X}Y, X is explicity stated as not part of the question.
+? { 0 } X ... statement direct
+:: !X ... absurd hypothesis
+:: 0 ... priori 
+:: reached 0
+{0}X
+... if we admit a false statement, everything can be proved true and false
 
-... the distributive property of negation operator on conjunction and disjunction operators.
-... actually, we call that f distributes over g if f( AgB ) = fA g fB, so the De Morgan's Law rules another kind of distributivity, which interchanges the operators (/,\).
-... those property names are of special importance on the idea of objetification or reason by projection of reason to a mechanical process, because distribution and commutation are movements, which are very confortable to imagine, and so becomes easy to use, recognize and remember.
+
+? (closed):: ?X // :: X
+
+? { !X , X } Y
+:: ? Y
+:: :: !X ... priori
+:: :: X ... priori 
+:: :: X / !X ... conjunction definition 
+:: :: 0 ... contradiction 
+
+
 ... we are 'mathematizing' the logic, which is the meaning of formalizing the logic, so its natural to begin with inferences and moves toward statement operators.
 ... all the main inferential operators have values for all possibilities of values 
 ... ( // , /// , / , \ , ! ) ~ Vertical Inference Operators
 ... this way we can define them as well defined statement operators.
 */
+'...'
 /** Main Reason of Logic [ Statement Operators ] { Horizontal Part }
 ... = is the statement operator of equality.
 ... its special because it has inferential properties.
@@ -486,6 +557,12 @@ X /// 1//X ... lemma
 
 */
 
+/*
+Inferences ~ (Allowed,Forbidden)
+Statements ~ (True,False) , (Known,Unknown)
+Reasons ~ (Valid, Inference-Valid, Invalid)
+Propositions ~ (Closed, Open) (Known, Unknown)
+*/
 
 
 /// END
