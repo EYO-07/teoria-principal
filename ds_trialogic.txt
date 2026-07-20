@@ -406,25 +406,38 @@ X /// 1//X ... lemma
 ... (!X \ Y) acts like X//Y, in fact, they are equivalent.
 ... cryptically many books define X//Y as (!X \ Y) which is absolutely unnatural.
 ... the relation between ( / , \ , ! , // ) are one of the most important results of logic.
-? ( !X \ Y ) /// (X//Y)
-:: ? ( !X \ Y ) // (X//Y)
-:: :: ( !X \ Y )
-:: :: ? X//Y
-:: :: :: X 
-:: :: :: ? Y
-:: :: :: :: !Y
-:: :: :: :: !X \ Y
-:: :: :: :: !X
-:: :: :: :: X
-:: :: :: :: 0
-:: :: :: ::
-:: :: :: Y
-:: :: ::
+? ( !X \ Y ) /// (X//Y) ... by direct statement proof
+:: ? ( !X \ Y ) // (X//Y) ... by direct proof 
+:: :: ( !X \ Y ) ... premise 
+:: :: ? X//Y ... by direct inference proof 
+:: :: :: X ... premise 
+:: :: :: ? Y ... by absurd 
+:: :: :: :: !Y ... absurd hypothesis 
+:: :: :: :: !X \ Y ... inherited
+:: :: :: :: !X ... detach 
+:: :: :: :: X ... inherited
+:: :: :: :: 0 ... contradiction 
+:: :: :: :: reached zero 
+:: :: :: Y 
+:: :: :: direct proof 
 :: :: X//Y 
-:: ? (X//Y) // ( !X \ Y )
-:: :: X//Y
-:: :: ? (!X \ Y)
-
+:: :: direct proof 
+:: ? (X//Y) // ( !X \ Y ) ... by direct proof 
+:: :: X//Y ... premise 
+:: :: ? (!X \ Y) ... by absurd 
+:: :: :: ! (!X \ Y) ... absurd hypothesis
+:: :: :: X / !Y ... De Morgan's Law 
+:: :: :: X ... detach 
+:: :: :: !Y ... detach 
+:: :: :: X//Y ... inherited
+:: :: :: Y ... modus ponens 
+:: :: :: Y / !Y ... conjunction definition 
+:: :: :: 0 ... contradiction 
+:: :: :: reached zero
+:: :: (!X \ Y) 
+:: :: direct proof 
+:: (X//Y) /// ( !X \ Y ) ... definition of equivalence 
+:: reached the statement 
 .
 (+) { *,*,... } is the priori inferential operator
 ... priori inferential operators tells explicitly what can be inherit to the subreason of a proposition.
