@@ -284,7 +284,7 @@ X // X ... we can repeat what was accepted as true
 :: :: contraction
 :: !Y // !X ... proved
 :: contraction
-X//Y // (!Y // !X)
+X//Y // (!Y // !X) 
 ? (!Y // !X) // X//Y ... by direct proof
 :: (!Y // !X) ... premise
 :: ? X//Y ... direct proof
@@ -296,7 +296,7 @@ X//Y // (!Y // !X)
 :: X//Y ... proved
 :: contraction 
 (!Y // !X) // X//Y
-X//Y // (!Y // !X) ... this is the 'De Morgan's Law' for propositional logic
+X//Y // (!Y // !X) ... this is the property of contraposition
 ? 1//X // X ... by direct proof
 :: 1//X ... premise 
 :: 1 ... inherits
@@ -315,7 +315,7 @@ X // 1//X
 X /// 1//X ... lemma
 ? 1 // (0//0)
 :: 1 ... premise
-:: (0//0) /// (1//1) ... particular case of De Morgan's Law
+:: (0//0) /// (1//1) ... particular case of contraposition
 :: (1//1) ... inherited
 :: 0//0 ... modus ponens 
 :: contraction 
@@ -334,6 +334,7 @@ X /// 1//X ... lemma
 (allowed) 0 /// 0
 (forbidden) 1 /// 0
 (forbidden) 0 /// 1
+. 
 1/1
 ? ! 0/1 ... by absurd
 :: 0/1 ... absurd hypothesis
@@ -361,9 +362,47 @@ X /// 1//X ... lemma
 :: !!1 ... modus ponens 
 :: reached the statement by 2xValid reasoning
 (forbidden) !1
+.
+(+) * \ * is the inferential operator of disjunction
+(+allowed) (X \ Y) /// !( !X / !Y )
+... if X \ Y, then both cannot be false 
+? !(X \ Y) /// (!X / !Y) ... by direct statement proof
+:: ? !(X \ Y) // (!X / !Y) ... by direct statement proof
+:: :: !(!X / !Y) // ( X\Y ) ... definition 
+:: :: !(X\Y) // (!X / !Y) ... contraposition
+:: :: direct
+:: !(X \ Y) // (!X / !Y)
+:: ? (!X / !Y) // !(X \ Y) ... by direct statement proof
+:: :: (X \ Y) // !( !X / !Y ) ... inherited definition
+:: :: (!X / !Y) // !(X \ Y) ... contraposition
+:: :: direct 
+:: (!X / !Y) // !(X \ Y) 
+:: !(X \ Y) /// (!X / !Y) ... definition of ///
+:: direct 
+!(X \ Y) /// (!X / !Y)
+? (X / Y) /// !( !X \ !Y ) ... exercise
+? !(X / Y) /// (!X \ !Y)  ... exercise 
+... !(X \ Y) /// (!X / !Y) and !(X / Y) /// (!X \ !Y) are the De Morgan's Law which rules 
+
+.
+(+) { *,*,... } is called the priori inferential operator
+... priori inferential operators tells explicitly what can be inherit to the subreason of a proposition.
+... {} works along with proposition operator ?
+... at this point every proposition subreason is assumed to inherits things directly from the main reason, thats is the idea of priori statements, the priori statements are allowed to be inherited to the subreasons.
+... so when we test ? X, we are implicitly saying ? { all statements before on the boundaries of main reason } X
+(+allowed) ?{X}Y // ::X
+... we are formalizing the proposition and subreasoning as a part of inferential formalism.
+(+allowed) ?X /// ?{...}X 
+... {...} means it is assumed everything before on the boundaries of main reason.
+(+allowed) the absurd-statement subreasoning ignores the priori statements so for ?{X}Y the absurd hypothesis is !Y.
+(+allowed) the subreasons 
+
+... the distributive property of negation operator on conjunction and disjunction operators.
+... actually, we call that f distributes over g if f( AgB ) = fA g fB, so the De Morgan's Law rules another kind of distributivity, which interchanges the operators (/,\).
+... those property names are of special importance on the idea of objetification or reason by projection of reason to a mechanical process, because distribution and commutation are movements, which are very confortable to imagine, and so becomes easy to use, recognize and remember.
 ... we are 'mathematizing' the logic, which is the meaning of formalizing the logic, so its natural to begin with inferences and moves toward statement operators.
-... all the inferential operators have values for all possibilities of values 
-... ( // , /// , / , !) ~ Vertical Inference Operators
+... all the main inferential operators have values for all possibilities of values 
+... ( // , /// , / , \ , ! ) ~ Vertical Inference Operators
 ... this way we can define them as well defined statement operators.
 */
 /** Main Reason of Logic [ Statement Operators ] { Horizontal Part }
@@ -376,11 +415,75 @@ X /// 1//X ... lemma
 (+allowed) X:=Y // X=Y
 ... the mathematical evaluation is made preferentially horizontally, so to avoid the trap of demiurge 
 ... we dont pretend we dont understand successive evaluations.
-(+allowed) X = ... = Y // X = Y
+(+allowed) X = ... = Y // X = Y ... horizontal contraction 
 (+allowed) (=) = (///), we consider in the context of statements, that = and /// are the same operator
 (+allowed) X = 1 or Y = 0 means the same as X is false or forbidden and Y is true or allowed 
 0&1 = 1
+... = have same importance as // to perform reasoning 
+... but for horizontal reasoning, the relation are symetric.
+(+allowed) ( X=Y / statement using f(X) ) // f(X) ... substitution 
+(+allowed) X=Y /// Y=X ... symetry
 ... (-> , = , & ,¬ ) ~ Horizontal Statement Operators 
+(+) (1=1):=1
+(+) (0=0):=1
+(+) (1=0):=0
+? (0=1)=0 ... direct statement proof
+:: (0=1)=(1=0) ... particular case of symetry
+:: (1=0)=0 ... (+)
+:: (0=1)=0 ... substitution 
+:: reached the statement 
+(0=1)=0
+(+) an statement that is true for all possibilities of values of their variables are called tautologies
+(+) we say that an operator f is equal to an operator g if f(X,Y...)=g(X,Y,...) for all possibilities of values of their variables. For short if f(X,Y,...)=g(X,Y,...) for all possibilities, we call it a tautology.
+... as tautologies are always true, it can be added to the reason freely.
+? (=) = (///) ... just check their values using section of inferential operators
+... that equality is only valid if their operands (their variables) are valued true or false.
+... only works on logic context.
+(+) we can substitute equal operators 
+.
+(+) 1&1 := 1
+(+) 1&0 := 0
+(+) 0&1 := 0
+(+) 0&0 := 0
+? (&)=(/) ... just check their values using section of inferential operators
+.
+(+) ¬1 = 0
+(+) ¬0 = 1
+? (¬) = (!) ... just check their values using section of inferential operators
+.
+... to avoid pointless demonstrations we define 
+(+) (->) := (//)
+(1->1):=1
+(1->0):=0
+(0->1):=1
+(0->0):=1
+... in trialogic, we cant use the zero as starting point of inference, so you cant say that from zero we can repeat zero. If we do so, then every time we could insert 0, and the reason itself becomes invalid.
+... we consider that the boundary of inference // operator start from the closest starting zero, but not including it, so even if (0->X) is always true, we cant perform an action starting from zero. 
+... actually (1->X) means exactly that, (1->X) is equivalent to say that we can repeat X freely, because we can start an action of inference from 1. And as (1->X) not been a tautology, keep the logic intact.
+... the zero from the main reason is the same of nothing, we cant step from nothing.
+... but reaching zero from a subreason has another meaning, as subreasons should always be inference valid, then reaching a zero can be safely reverted using De Morgan's Law. Reaching zero on subreason can be used as contraction, proving X as absurd is the same as proving (!X // 0), so we can use De Morgan's Law and conclude 1 // X.
+.
+? !(X->Y) = X&!Y ... tautology
+:: {00} !(0->0) = 0&!0
+:: {00} !1 = 0&1
+:: {00} 0 = 0
+:: {00} 1
+:: {10} !(1->0) = 1&!0
+:: {10} !(0) = 1&1
+:: {10} 1 = 1
+:: {10} 1
+:: {01} !(0->1) = 0&!1
+:: {01} !1 = 0&0
+:: {01} 0 = 0
+:: {01} 1
+:: {11} !(1->1) = 1&!1
+:: {11} !1 = 1&0
+:: {11} 0 = 0
+:: {11} 1
+
+
+!(X&Y) = (X->!Y)
+
 */
 
 
