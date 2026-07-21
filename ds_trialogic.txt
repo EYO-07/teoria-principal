@@ -173,7 +173,7 @@ Values of Reason:
 ... the proof by calculation is one of the advantages of formalism, because it becomes similar to arithmetic.
 ... tautologies inherit the benefits of mathematical formalism to logic.
 */
-/** Main Reason of Logic [ Inferential Operators ] { Vertical Part }
+/** Main Reason of Logic [ Inferential Operators ] { Vertical Logic }
 0 ... the starting zero, the false 
 ... remember the zero is not considered to be on the reason, its just a boundary
 ... 0 cant be inherited or used as premise to expand the main reason 
@@ -199,29 +199,29 @@ Values of Reason:
 ? 1//1 ... by direct proof
 :: 1 ... premise
 :: 1 ... inherited 
-:: contraction 
+.. contraction 
 1//1
 ? 0//1 ... by direct proof 
 :: 0 ... premise 
 :: 1 ... inherited 
-:: contraction 
+.. contraction 
 0//1 
 ? (forbidden) 1//0 ... by absurd
 :: (allowed) 1//0 ... absurd hypothesis 
 :: 1 ... inherited 
 :: 0 ... inference
-:: reached zero
+.. reached zero
 (forbidden) 1//0
 ? X // X ... direct proof 
 :: X ... premise 
 :: ? 1 // X ... direct proof, we need to go deeper
 :: :: 1 ... premise 
 :: :: X ... inherited 
-:: :: contraction 
+:: .. contraction 
 :: 1 // X ... proved 
 :: 1 ... inherited 
 :: X ... inference 
-:: contraction
+.. contraction
 X // X ... we can repeat what was accepted as true
 ... note that the subreasoning of subreasoning is a essential part of the trialogic 
 ... this pattern put it closer to programming and sets apart from traditional logic 
@@ -236,7 +236,7 @@ X // X ... we can repeat what was accepted as true
 :: X ... detach
 :: X//Y ... detach 
 :: Y ... inference 
-:: contraction
+.. contraction
 (X / X//Y ) // Y ... its named the 'modus ponens' inference
 ... is more common to state modus ponens as true, and starting from there, but in this text we assume that modus ponens is more complicated than inference, because it uses two operators.
 ? (X//Y / Y//Z) // X//Z ... by direct proof
@@ -250,9 +250,9 @@ X // X ... we can repeat what was accepted as true
 :: :: Y ... inference 
 :: :: Y//Z ... inherits
 :: :: Z ... inference
-:: :: contraction
+:: .. contraction
 :: X//Z 
-:: contraction
+.. contraction
 (X//Y / Y//Z) // X//Z 
 .
 (+allowed) (X /// Y) // ( X//Y / Y//X )
@@ -272,9 +272,9 @@ X // X ... we can repeat what was accepted as true
 :: :: Y ... inference
 :: :: !Y ... inherits
 :: :: 0 ... contradiction
-:: :: reached zero
+:: .. reached zero
 :: !X
-:: contraction 
+.. contraction 
 ( !Y / X//Y ) // !X ... this is the so called 'modus tollens' inference
 ? X//Y // (!Y // !X) ... by direct proof
 :: X//Y ... premise 
@@ -282,9 +282,9 @@ X // X ... we can repeat what was accepted as true
 :: :: !Y ... premise
 :: :: X//Y ... inherits
 :: :: !X ... modus tollens 
-:: :: contraction
+:: .. contraction
 :: !Y // !X ... proved
-:: contraction
+.. contraction
 X//Y // (!Y // !X) 
 ? (!Y // !X) // X//Y ... by direct proof
 :: (!Y // !X) ... premise
@@ -293,25 +293,25 @@ X//Y // (!Y // !X)
 :: :: !Y // !X ... inherits
 :: :: !!Y ... modus tollens 
 :: :: Y ... double negation 
-:: :: contraction 
+:: .. contraction 
 :: X//Y ... proved
-:: contraction 
+.. contraction 
 (!Y // !X) // X//Y
 X//Y // (!Y // !X) ... this is the property of contraposition
 ? 1//X // X ... by direct proof
 :: 1//X ... premise 
 :: 1 ... inherits
 :: X ... modus ponens
-:: contraction
+.. contraction
 1//X // X 
 ? X // 1//X ... by direct proof
 :: X ... premise
 :: ? 1//X ... by direct proof
 :: :: 1 ... premise
 :: :: X ... inherits
-:: :: contraction
+:: .. contraction
 :: 1//X ... proved
-:: contraction
+.. contraction
 X // 1//X
 X /// 1//X ... lemma
 ? 1 // (0//0)
@@ -319,7 +319,7 @@ X /// 1//X ... lemma
 :: (0//0) /// (1//1) ... particular case of contraposition
 :: (1//1) ... inherited
 :: 0//0 ... modus ponens 
-:: contraction 
+.. contraction 
 1 // (0//0)
 0//0
 ... this last one 0//0 was concluded using the inference 1//(0//0) directly on main reason 
@@ -340,28 +340,28 @@ X /// 1//X ... lemma
 ? ! 0/1 ... by absurd
 :: 0/1 ... absurd hypothesis
 :: 0 ... detach
-:: reached zero 
+.. reached zero 
 (forbidden) 0/1
 ? ! 1/0
 :: 1/0 ... absurd hypothesis
 :: 0 ... detach 
-:: reached zero 
+.. reached zero 
 (forbidden) 1/0
 ? ! 0/0 ... by absurd
 :: 0/0 ... absurd hypothesis
 :: 0 ... detach 
-:: reached zero 
+.. reached zero 
 (forbidden) 0/0
 ? !0 ... by absurd
 :: !!0 ... absurd hypothesis
 :: 0 ... double negation
-:: reached zero 
+.. reached zero 
 (allowed) !0
 ? ! !1 ... statement direct proof 
 :: 1 ... inherits
 :: 1 /// !!1 ... double negation 
 :: !!1 ... modus ponens 
-:: reached the statement by 2xValid reasoning
+.. reached the statement by 2xValid reasoning
 (forbidden) !1
 .
 (+) * \ * is the inferential operator of disjunction
@@ -371,15 +371,15 @@ X /// 1//X ... lemma
 :: ? !(X \ Y) // (!X / !Y) ... by direct statement proof
 :: :: !(!X / !Y) // ( X\Y ) ... definition 
 :: :: !(X\Y) // (!X / !Y) ... contraposition
-:: :: direct
+:: .. direct
 :: !(X \ Y) // (!X / !Y)
 :: ? (!X / !Y) // !(X \ Y) ... by direct statement proof
 :: :: (X \ Y) // !( !X / !Y ) ... inherited definition
 :: :: (!X / !Y) // !(X \ Y) ... contraposition
-:: :: direct 
+:: .. direct 
 :: (!X / !Y) // !(X \ Y) 
 :: !(X \ Y) /// (!X / !Y) ... definition of ///
-:: direct 
+.. direct 
 !(X \ Y) /// (!X / !Y)
 ? (X / Y) /// !( !X \ !Y ) ... exercise
 ? !(X / Y) /// (!X \ !Y)  ... exercise 
@@ -398,9 +398,9 @@ X /// 1//X ... lemma
 :: :: !(X \ Y) ... De Morgan's Law
 :: :: (X \ Y) ... inherited 
 :: :: 0 ... contradiction 
-:: :: reached zero 
+:: .. reached zero 
 :: Y
-:: direct proof 
+.. direct proof 
 ( !X / ( X \ Y ) ) // Y
 ( X / ( !X \ Y ) ) // Y
 ... (!X \ Y) acts like X//Y, in fact, they are equivalent.
@@ -417,11 +417,11 @@ X /// 1//X ... lemma
 :: :: :: :: !X ... detach 
 :: :: :: :: X ... inherited
 :: :: :: :: 0 ... contradiction 
-:: :: :: :: reached zero 
+:: :: :: .. reached zero 
 :: :: :: Y 
-:: :: :: direct proof 
+:: :: .. direct proof 
 :: :: X//Y 
-:: :: direct proof 
+:: .. direct proof 
 :: ? (X//Y) // ( !X \ Y ) ... by direct proof 
 :: :: X//Y ... premise 
 :: :: ? (!X \ Y) ... by absurd 
@@ -433,11 +433,11 @@ X /// 1//X ... lemma
 :: :: :: Y ... modus ponens 
 :: :: :: Y / !Y ... conjunction definition 
 :: :: :: 0 ... contradiction 
-:: :: :: reached zero
+:: :: .. reached zero
 :: :: (!X \ Y) 
-:: :: direct proof 
+:: .. direct proof 
 :: (X//Y) /// ( !X \ Y ) ... definition of equivalence 
-:: reached the statement 
+.. reached the statement 
 .
 (+) { *,*,... } is the priori inferential operator
 ... priori inferential operators tells explicitly what can be inherit to the subreason of a proposition.
@@ -458,9 +458,9 @@ X /// 1//X ... lemma
 :: :: Y ... modus ponens 
 :: :: !Y / Y ... conjunction definition 
 :: :: 0 ... contradiction 
-:: :: reached zero 
+:: .. reached zero 
 :: {X}Y
-:: direct
+.. direct
 X//Y /// {X}Y
 ... the way we define {...} is just another way to state inferences, because equivalence /// has the same value of equal operator on statement variables.
 ... but it allow us to create contradictory priori statements freely because {0}X has the same meaning of 0//X, which is allowed as statement.
@@ -468,7 +468,7 @@ X//Y /// {X}Y
 ? { 0 } X ... statement direct
 :: !X ... absurd hypothesis
 :: 0 ... priori 
-:: reached 0
+.. reached 0
 {0}X
 ... if we admit a false statement, everything can be proved true and false
 ... we are 'mathematizing' the logic, which is the meaning of formalizing the logic, so its natural to begin with inferences and moves toward statement operators.
@@ -476,8 +476,8 @@ X//Y /// {X}Y
 ... ( // , /// , / , \ , ! ) ~ Vertical Inference Operators
 ... this way we can define them as well defined statement operators.
 */
-'Cannot even prove anything without inference.'
-/** Main Reason of Logic [ Statement Operators / Boolean Logic ] { Horizontal Part }
+'One cant prove anything without inference.'
+/** Main Reason of Logic [ Statement Operators / Boolean Logic ] { Horizontal Logic }
 ... = is the statement operator of equality.
 ... its special because it has inferential properties.
 ... those properties are assumed true to avoid the trap of demiurge.
@@ -559,7 +559,118 @@ X|(y & z) /// (x|y)&(x|z) ... distributive property of | over &
 ? X&(y | z) /// (x&y)|(x&z) ... distributive property of & over |
 :: t = lambda x,y,z: ( x and (y or z) ) == ( (x and y) or (x and z) )
 */
-'Boolean Arithmetic is Mathematical Part of Logic.'
+'Boolean Arithmetic is the mathematical calculation part of the logic.'
+/** Main Reason of Logic [ Classes and Quantifiers ] { Third Dimension Logic }
+(+) !(x .in. X) := x .notin. X
+... we denote .operator_name. as operator 
+(+) class definition X := { x .in. X /// P(x) }
+(+) [[ ... ]] will denote the priori statements 
+(+) class definitions should always be on priori statements 
+? [[ R :={ x .in. R /// x .notin. x } ]] : 0 ... by absurd 
+:: 1 ... absurd hypothesis (but thats is just a dummy, to fit the procedure)
+:: ? R .in. R // R .notin. R ... by inference-direct
+:: :: R .in. R ... premise 
+:: :: R .notin. R ... class definition 
+:: .. inference-direct 
+:: R .in. R // R .notin. R
+:: ? R .notin. R // R .in. R ... by inference-direct
+:: :: R .notin. R ... premise
+:: :: x .in. R /// x .notin. x ... class definition
+:: :: R .in. R ... particular case of class definition
+:: .. inference-direct
+:: R .notin. R // R .in. R
+:: R .in. R /// R .notin. R ... equivalence definition 
+:: R .in. R /// !(R .in. R) ... substitution
+:: ? (Q /// !Q) // (Q & !Q) ... by tautology
+:: :: then = lambda x,y: (not x) or y
+:: :: t = lambda x: then( x == ( not x), x and (not x) )
+:: .. tautoloy
+:: (Q /// !Q) // (Q & !Q)
+:: (R .in. R /// !(R .in. R) ) // ( (R .in. R) & !(R .in. R) ) ... particular case of (Q /// !Q) // (Q & !Q)
+:: (R .in. R) & !(R .in. R) ... modus ponens 
+:: 0 ... contradiction
+.. reached 0 by valid inferences 
+... this is the so called Russell's Paradox, which causes a lot of trouble on set-theory and mathematics.
+... Russell's paradox aren't a big issue on this class-theory because classes are part of priori statements 
+... and you can have contradiction on priori statements.
+... this means that classes cannot be freely added.
+... classes are not safe like function and variable naming definition.
+... classes are equivalent to axioms, which eventually can be proved inconsistent.
+... those problems will be avoided on this theory, to avoid the trap of demiurge.
+... keep in mind that set-theory are a well established mathematical field, and if you find that it is relevant or interesting to go further, you should read proper set-theory books. 
+... this theory aims to keep simple and stepwise for the sake of natural induction philosophy.
+... for short every time you state about a class you implicitly state 'class definition'//statement 
+... as we've seen before, 0//X and 0//0 are true and can be safely added to a statement-valid reason.
+
+(+) U:={ x .in. U /// 'x is a class' }, this will be the class of all classes.
+(+) S:={ s .in. S /// 's is a statement' }, this will be the class of all things that can be evaluated true.
+(+) f : S -> {true,false}, f is a propositional statement formula 
+(+) [[ C .in. U ]] f : C -> {true,false}, f is a statement formula 
+... Classes ~ Quantifiers 
+... Classes are close related to logical quantifiers, .forall. and .exists.
+... f(x)&f(y)&f(z) ... ~ forall. x .in. C : P(x)
+... f(x)|f(y)|f(z) ... ~ exists. x .in. C : P(x)
+... quantifiers and classes are powerful abstractions, because it dont relies on finitude of binary operators.
+... classes can be infinite and quantifiers are concepts applied to whole content of a class.
+... actually, it should be stated as axiom that a class can be infinite, but for now, that detail dont matter much and should be a subject to formal set-theory.
+... [[  ]]
+(+allowed) ( forall. x .in. C : P(x) ) /// ( x .in. C // P(x) )
+(+allowed) ( exists. x .in. C : P(x) ) /// ( ! .forall. x .in. C : !P(x) )
+(+) if (exists. x .in. C : P(x)) we can name that x, lets say z, and detach P(z) on reason. We denote this as z .choiceof. (exists. x .in. C : P(x)).
+(+allowed) ( exists. x .in. C : P(x) ) // z .choiceof. (exists. x .in. C : P(x)) 
+(+allowed) ( z .choiceof. (exists. x .in. C : P(x)) ) // P(z)
+... when two operators have this symetric relation ( ! op1. P /// op2. !P ) we say that they are modal to each other, or, they are modal operators. (forall. * .in. C) is modal to (exists. * .in. C)
+... those operators extends the (&,|) operators.
+(+allowed) we assume that we know how to demontrate things on a finite collection, so if we have Q:={a,b} and want to prove forall. x in Q: P(x), is enough to prove for P(a) and P(b). So the demonstration on finite collections becomes part of inferential procedure.
+(+allowed) we assume that we know when an element belongs to a finite collection. So we can detach statements, for instance, (forall. x .in. {A,B}: P(x)) // ( A .in. {A,B} / B .in. {A,B} ).
+? ( X & Y ) /// ( forall. x .in. {X,Y} : x ) ... by direct statement 
+:: ? -> ... direct inference 
+:: :: (X & Y) ... premise 
+:: :: ? ( forall. x .in. {X,Y} : x ) ... direct statement 
+:: :: :: ? X ... direct statement 
+:: :: :: :: X & Y ... inherited
+:: :: :: :: X ... detach 
+:: :: :: .. direct statement 
+:: :: :: ? Y ..
+:: :: .. 
+:: :: ( forall. x .in. {X,Y} : x )
+:: .. direct inference 
+:: ? <- ... direct inference
+:: :: ( forall. x .in. {X,Y} : x ) 
+:: :: X .in. {X,Y} ... recognition
+:: :: X ... definition of forall. 
+:: :: Y .in. {X,Y} ... recognition
+:: :: Y ... definition of forall 
+:: :: X&Y ... conjunction
+:: .. direct inference 
+:: ( X & Y ) /// ( forall. x .in. {X,Y} : x )
+.. direct statement 
+( X & Y ) /// ( forall. x .in. {X,Y} : x )
+? ( X | Y ) /// ( exists. x .in. {X,Y} : x ) ... by direct statement 
+:: ? -> ... direct inference
+:: :: (X|Y) ... premise 
+:: :: ? ( exists. x .in. {X,Y} : x ) ... by absurd 
+:: :: :: forall. x .in. {X,Y} : !x ... absurd hypothesis
+:: :: :: X .in. {X,Y} ... recognition
+:: :: :: Y .in. {X,Y} ... recognition
+:: :: :: !X ... definition of forall. 
+:: :: :: !Y ... definition of forall.
+:: :: :: !X & !Y ... conjunction
+:: :: :: ? (!X & !Y) = !(X|Y) .. tautology
+:: :: :: (!X & !Y) = !(X|Y)
+:: :: :: ! (X|Y) ... substitution
+:: :: :: (X|Y) ... inherited
+:: :: :: (X|Y) & !(X|Y) ... conjunction
+:: :: :: 0 ... contradiction 
+:: :: .. direct inference 
+:: :: ( exists. x .in. {X,Y} : x )
+:: .. direct inference
+:: ? <-
+:: :: ( exists. x .in. {X,Y} : x )
+:: :: 
+*/
+
+
 /** The Inferential Operators of Demonstration (?,::)
 ... we discussed values for inferences, statements, reasons 
 ... Inferences ~ (Allowed,Forbidden)
@@ -574,6 +685,22 @@ X|(y & z) /// (x|y)&(x|z) ... distributive property of | over &
 :: :: ? (closed)? !X
 :: :: :: (open)? !X
 :: :: 
+
+Induced Dialetics from Proposition Form 
+? X
+:: ? !X // 0
+? X /// Y
+:: ? X//Y
+:: ? Y//X 
+? X // Y
+:: ? !Y // !X 
+? X // Y
+:: ? 
+? X / Y
+:: ? X
+:: ? Y
+
+( ::(..)?X / ::(..)?Y ) // (..)? X/Y
 
 */
 
