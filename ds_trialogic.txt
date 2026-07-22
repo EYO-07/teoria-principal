@@ -9,13 +9,14 @@ Minimalist ~ avoid unnecessary.
 Stepwise ~ minimize leap of faiths.
 Constructive ~ construct from what has been build. 
 */
-'The Opposite of Naturally Induced is Esoterism.'
+'The Opposite of Naturally Induced is Esoterism/Divination/Revelation.'
 /* Dialectical Projections Logic:
 (Object < Analogy * Similar)
 (Object < Interpretation * Model)
 Conscience < (Emotion,Intellect,Will) * (Feel,Understand,Choose) ~ (Perception,Processing,Response)
 Trialetic := ...
-Logic < (Statement,Reason,Inference) * Trialetic 
+(Statement,Inference,Reason) ~ (Start,Step,Build) ~ (Begin,Middle,End)
+Logic < (Statement,Inference,Reason) * Trialetic 
 1. Statement ~ True X False
 2. Inference ~ Allowed X Forbidden 
 3. Reason ~ Valid X Invalid 
@@ -601,11 +602,7 @@ X|(y & z) /// (x|y)&(x|z) ... distributive property of | over &
 ... this theory aims to keep simple and stepwise for the sake of natural induction philosophy.
 ... for short every time you state about a class you implicitly state 'class definition'//statement 
 ... as we've seen before, 0//X and 0//0 are true and can be safely added to a statement-valid reason.
-
-(+) U:={ x .in. U /// 'x is a class' }, this will be the class of all classes.
-(+) S:={ s .in. S /// 's is a statement' }, this will be the class of all things that can be evaluated true.
-(+) f : S -> {true,false}, f is a propositional statement formula 
-(+) [[ C .in. U ]] f : C -> {true,false}, f is a statement formula 
+.
 ... Classes ~ Quantifiers 
 ... Classes are close related to logical quantifiers, .forall. and .exists.
 ... f(x)&f(y)&f(z) ... ~ forall. x .in. C : P(x)
@@ -665,9 +662,36 @@ X|(y & z) /// (x|y)&(x|z) ... distributive property of | over &
 :: :: .. direct inference 
 :: :: ( exists. x .in. {X,Y} : x )
 :: .. direct inference
-:: ? <-
-:: :: ( exists. x .in. {X,Y} : x )
-:: :: 
+:: ? ( exists. x .in. {X,Y} : x ) // ( X | Y ) ... by direct statement 
+:: :: ? !(X|Y) // ( forall. x .in. {X,Y} : !x ) ... by direct inference 
+:: :: :: !(X|Y) ... premise 
+:: :: :: !X & !Y ... tautology
+:: :: :: !X ... detach
+:: :: :: !Y ... detach
+:: :: :: ? x .in. {X,Y} // !x ... test all cases 
+:: :: :: :: ? !X 
+:: :: :: :: :: inherited 
+:: :: :: :: .. 
+:: :: :: :: ? !Y
+:: :: :: :: :: inherited 
+:: :: :: :: .. 
+:: :: :: .. all the cases 
+:: :: :: ( x .in. {X,Y} // !x ) /// ( forall. x .in. {X,Y} : !x) ... inferences from forall.
+:: :: :: ( forall. x .in. {X,Y} : !x) ... modus ponens 
+:: :: .. direct infenrece
+:: :: !(X|Y) // ( forall. x .in. {X,Y} : !x ) 
+:: :: ( exists. x .in. {X,Y} : x ) // ( X | Y ) ... contraposition 
+:: .. direct statement
+.. all the cases 
+
+(+) U:={ x .in. U /// 'x is a class' }, this will be the class of all classes.
+(+) S:={ s .in. S /// 's is a statement' }, this will be the class of all things that can be evaluated true.
+(+) f : S -> {true,false}, f is a propositional statement formula 
+(+) [[ C .in. U ]] f : C -> {true,false}, f is a statement formula 
+
+f : X -> Y
+f .in. Y^X /// ( forall. x .in. X : f(x) .in. Y & ( (f(x)=z & f(x)=y ) // z=y) )
+
 */
 
 
