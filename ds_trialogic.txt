@@ -23,14 +23,29 @@ Logic < (Statement,Inference,Reason) * Trialetic
 Reason ~:= stream of (true) [statements] expanded with (allowed) [inferences]
 Subreason ~:= inherit statements and inferences from the parents reasons
 Inference ~:= allow (valid) expansion of [reason] adding (true) [statements]
-Statement ~:= formula with (variables, operators, functions).
-(variables, operators, functions) ~ (statements,inferences,reasons)
+.
+Statement ~:= formula/expression with (variables, operators, functions).
+Process/Transformation < (Operators,Functions) ~ (Space,Time)
+Operators ~ are seen as a combination of expression values of variables
+... we see operators as interaction between variables.
+Functions ~ are seen as a result of an expression bind with variables
+... functions expands the concept of operators, so operators can be seen as functions. 
+... we see functions as evaluation of expressions of interactions.
+( variables, (operators, functions) ) ~ (Statements,Inferences) ~ (Space,Time)
+(Variables, Functions) ~ (Substitution,Evaluation) {Value}
+.
+(Statement X Inference) ~ (Space X Time)
 (Statement X Inference) ~ (Horizontal X Vertical)
-Reason < Formal Logic * Mechanical Process 
+Reasoning < Formal Logic * Mechanical Process 
 Formal Logic X Mind Reason ~ Objective X Subjective ~ Definite X Inconstant
-Formal Logic ~ Formulas 
+Formal Logic ~ Formulas, Expressions, Functions, Operators
 (Statement,Inference) ~ (Object,Relation) ~ (Space,Time)
 (Statement,Inference){Reason} ~ (Object,Relations){Reality}
+.
+Reason ~ Simulation 
+Subreason ~ Simulation of Simulation 
+Reality > Reason > Subreason > ... 
+... the subreasoning procedure, which is a core part of trialogic, is induced by this concept. That reality is already a kind of reason, the main reason, and the reason is a subreason to test things about reality, and subreason is just the process made again, but using a reason as reality.
 */
 'Formal Logic is a Objectification of Subjective Reasoning.'
 /* Dialectical Atom 
@@ -54,7 +69,7 @@ Formal Logic ~ Formulas
 /// ... there are three demiurges, each one trying to flatten the conscience to become one/two dimensional
 /// ... the demiurge of intellect steals your focus from reality and trap your mind in abstractions
 /// ... to avoid the trap of demiurge the recursive atomization must be clear and short
-/* Trilogical Atom (Statement,Reason,Inference)
+/* Trialogical Atom (Statement,Inference,Reason)
 (Statement,Reason,Inference)
 1. Statement : true or false values
 2. Reason : statements linked by inferences
@@ -62,18 +77,34 @@ Formal Logic ~ Formulas
 3. Inference : inferences allow the expansion of reason
 ... inferences can be allowed or forbidden 
 */
-/* Statements
+'Outside the logic, those three kinds are usually seen as the same, but to study formal logic properly, one should understand each one as separated concept, inferences are the allowed actions to keep the reason valid, statements are the objects that could be true or false, and reasons are the result of inferences acting over accepted statements.'
+/* Statements Trialetic Atom (Expression,Evaluation,Equation)
 Statement < (Formal Statement X Informal Statement) * (Objective X Subjective) ~ (Real X Mind)
 1. Formal Statement : symbolic, using operators, functions and variables. 
 2. Informal Statement : expressed using ordinary language. 
+... informal reasoning uses languages just as catalists, but the transformation of ideas happens inside the mind of a subject. 
+... formal reasoning objectifies the process, so the transformation can occur by strictly operational rules and can even be done without understanding.
+Statement < (Variables, (Operators,Functions))
+... the end result of a statement expression should be true or false, even it the expression are defined with general variables of functions.
+Reason ~ (Statement,Inference)
+Statement ~ (Expression,Evaluation)
+(Statement,Inference) ~ (Expression,Evaluation)
+... statements are expressions that can be evaluated, this creates a statement-reasoning which links expressions with same value through evaluation.
+... but instead of inferences to act on statements, the evaluation of operators acts on expressions. 
+... another diference is that the inference is essentially unidirectional, while evaluation is bidirectional, because it draws from the concept of equality and substitution of equals.
+Vertical Reasoning ~ (Statement,Inference,Reason)
+Horizontal Reasoning ~ (Expression,Evaluation,Equation)
 */
-/* Formal Statement (Variables,Operators,Functions) 
-Formal Statement < (Variables,Operators,Functions) 
-1. Variables : can be substituted by its value in order to evaluate a statement
-2. Operators : combine variable values returning a evaluated value 
-3. Functions : is a abstraction for an expression which combine variables to return a value 
+'As trialogic is a kind of formal logic, we are interested in formal statements.'
+/* Statements
+1. Can be true or false.
+2. Statement expressions can be substituted by evaluated expressions.
+3. The most simple form of statement is a variable statement, which is evaluated as the value of variable.
+4. If you know the value of an variable, you can substitute the value on statement expressions using it.
+5. You can define variables to represent the evaluation of an expression, the name should be unique, and should not be used before on current reason. 
+6. An open expression is an expression with variables whose values are not determined yet.
+7. A function is similar to the concept of the variable, but a function names an expression which is open and shows the variables which it value depends on.
 */
-'As trialogic a kind of formal logic, we are interested in formal statements.'
 /* Reasons and Subreason 
 1. A valid reason was generated only with allowed inferences 
 2. Using a forbidden inference on a reason turn it invalid 
@@ -93,7 +124,7 @@ Inference < (Condition,Action){(sub)reason}
 ... Inferences are the definition of how to operate 'mechanically' on formal logic. 
 ... Inferences comes before the 'mechanics' of formal logic.
 */
-/* Inference Atom Operators ( / , //, ! )
+/* Inference Atom Operators ( / , //, ! ) ~ (Combine,Conclude,Flip)
 ( * // * )
 is the inference inferential operator
 the boundary of a reason is everything below the starting zero and the current position of the reason 
@@ -110,35 +141,50 @@ should be considere just a notation
 is the inferential operator of negation 
 it flips the value of the statement or inference 
 ... we consider the disjunction less-natural and must be defined later, because operationally the or is related to possibilities, which requires the imagination of copies of the reality and the ability to compare them.
+(* \ *)
+is the disjunction operator and abstract the concept of at least one has been seen on the reason. Its not considered part of the atom of inferential operators, because it is conceptually more complex and can be easily defined with the atom.
 */
-/* Statement Atom Operators ( =, &, () )
-( =, &, () )
-1. = : equal value operator 
-2. & : conjunction operator 
-3. () : precedence operator
-... simbolizes that the expression inside is evaluated before
-... functions are precedence operators with names 
-1 ~ true 
-0 ~ false 
-'Expression' = 'Value'
-'Expression' = 'Evaluation'
-(1=1) = 1
-(0=0) = 1
-(1=0) = 0
-(0=1) = 0
-(1&1) = 1
-(1&0) = 0
-(0&1) = 0
-(0&0) = 0
-... we set the evaluation or calculation process outside the reason environment
-... f(X) = f(0) if X has value zero 
-... we perform a calculation expanding horizontally 
-... X&Y = 0&1 = 0 for X=0 and Y=1
-... and we can conclude the contraction of evaluation as 
-... X&Y = 0
-... we could say that a contraction of evaluation is a kind of inference 
-... when f(X) = 1 for any value of X we say that f(X) is a tautology
-... we prove tautology directly by calculation of all possibilities
+
+/* Statement Atom Operators 
+() ~ Parenthesis is the evaluation operator, it sinalizes on a expression that the contents inside are evaluated before interacting with other components. It states a precedence on evaluation.
+... its very difficult to start logic without assuming his 'inferential properties' on evaluation reasoning.
+... an expression enclosed by () can be substituted by any of its evaluations.
+= ~ is the equal operator, its used to state that two expressions have same evaluation.
+... a chain of equality between expressions can be used to show a evaluation reasoning.
+... again, its very difficult to start logic without assuming his 'inferential properties' on evaluation reasoning. 
+... expressions with equal value can substitute each other to perform evaluation reasoning.
+(1=1)=1
+(1=0)=0
+(0=1)=0
+(0=0)=1
+.
+(¬0)=1
+(¬1)=0
+.
+(1&1)=1
+(1&0)=0
+(0&1)=0
+(0&0)=0
+.
+(X|Y) := ¬((¬X)&(¬Y))
+(1|1)=1
+(1|0)=1
+(0|1)=1
+(0|0)=0
+.
+(X->Y) := (¬X)|(Y)
+(1->1)=1
+(1->0)=0
+(0->1)=1
+(0->0)=1
+.
+(=,()) ~ Statement Reasoning Atom
+(¬,&) ~ Statement Building Atom
+(|,->) ~ (Space,Time)
+... (|,->) are derived operators.
+.
+(&,=,¬, ((),=) ) ~ (/,//,!, (?,::) )
+(?,::) are the operators for proposition and subreasoning 
 */
 /* Demonstration Trialetic Atom (Absurd,Direct-Proof,Annotation) ~ (Statement,Inference,Reason)
 Direct-Proof ~ Test a Inference 
@@ -735,6 +781,12 @@ Reasons ~ (Valid, Inference-Valid, Invalid)
 Propositions ~ (Closed, Open) (Known, Unknown)
 */
 
+/* Formal Statement (Variables,Operators,Functions) 
+Formal Statement < (Variables,Operators,Functions) 
+1. Variables : can be substituted by its value in order to evaluate a statement
+2. Operators : combine variable values returning a evaluated value 
+3. Functions : is a abstraction for an expression which combine variables to return a value 
+*/
 
 /// END
 
