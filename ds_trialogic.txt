@@ -144,7 +144,6 @@ it flips the value of the statement or inference
 (* \ *)
 is the disjunction operator and abstract the concept of at least one has been seen on the reason. Its not considered part of the atom of inferential operators, because it is conceptually more complex and can be easily defined with the atom.
 */
-
 /* Statement Atom Operators 
 () ~ Parenthesis is the evaluation operator, it sinalizes on a expression that the contents inside are evaluated before interacting with other components. It states a precedence on evaluation.
 ... its very difficult to start logic without assuming his 'inferential properties' on evaluation reasoning.
@@ -607,6 +606,35 @@ X|(y & z) /// (x|y)&(x|z) ... distributive property of | over &
 :: t = lambda x,y,z: ( x and (y or z) ) == ( (x and y) or (x and z) )
 */
 'Boolean Arithmetic is the mathematical calculation part of the logic.'
+/* Socratic Dialetics
+The form of the proposition induces a subreasoning path, its often more effective for the learner to follow the path instead of reading the actual demonstration. 
+The path which exposes the questions and ommits the actual demonstration are called demonstrative dialetics, or socratic dialetics.
+Its for the reader to effectively produce the actual demonstration, following the socratic dialetics.
+The socratic demonstrative dialetics its useful to shorten the exposition of demonstration while keeping implicitly rigorous.
+The socratic demonstrative dialetics is useful to organize the reasoning, as the objective and sub-objectives are stated clearly, on structured hierarquical fashion.
+Both the reader and the writer can avoid painfully rigorous demonstrations just showing the dialetics.
+... the form of a proposition, the definition of operators can induce natural dialetics.
+[ Inferential Dialetics ]
+? X//Y
+:: X
+:: ? Y
+[ Contraposition Dialetics ]
+? X//Y
+:: ? !Y // !X
+[ Absurdity Dialetics Induced from Contraposition of Inferential Dialetics ]
+? X
+:: ? !X // 0
+... we consider contraposition as the same of absurdity, as the contraposition cannot be done without the concept of negation, but once defined, absurdity becomes a particular case of contraposition, in the same fashion as the direct statement proof ?X can be seen as ?1//X
+[ Conjunction Dialetics ]
+? X / Y
+:: ? X
+:: ? Y
+... (Conjunction,Inference,Absurdity) can be considered the atom of demonstration, but not because they depends of each other, but they are essential and cant be defined without each other, they are defined at same time.
+[ Tautologic Dialetics ]
+? f(X,Y,...)
+:: ? (tautology) f(X,Y,...)
+... tautologies are induced from the formalism, as we create new forms of expressions, new operators, those induze from definition, methods to perform the demonstration.
+*/
 /** Main Reason of Logic [ Classes and Quantifiers ] { Third Dimension Logic }
 (+) !(x .in. X) := x .notin. X
 ... we denote .operator_name. as operator 
@@ -659,9 +687,13 @@ X|(y & z) /// (x|y)&(x|z) ... distributive property of | over &
 ... [[  ]]
 (+allowed) ( forall. x .in. C : P(x) ) /// ( x .in. C // P(x) )
 (+allowed) ( exists. x .in. C : P(x) ) /// ( ! .forall. x .in. C : !P(x) )
+... the class C which x is tested is the domain of the quantifier operators 
+... we call regular quantifiers if they possess defined domains 
+... those testing domains are part of priori statements, so it cannot (or dont make sense to) be denied by negation.
 (+) if (exists. x .in. C : P(x)) we can name that x, lets say z, and detach P(z) on reason. We denote this as z .choiceof. (exists. x .in. C : P(x)).
 (+allowed) ( exists. x .in. C : P(x) ) // z .choiceof. (exists. x .in. C : P(x)) 
 (+allowed) ( z .choiceof. (exists. x .in. C : P(x)) ) // P(z)
+(+allowed) (forall. a: P(a)) // (exists. a: P(a))
 ... when two operators have this symetric relation ( ! op1. P /// op2. !P ) we say that they are modal to each other, or, they are modal operators. (forall. * .in. C) is modal to (exists. * .in. C)
 ... those operators extends the (&,|) operators.
 (+allowed) we assume that we know how to demontrate things on a finite collection, so if we have Q:={a,b} and want to prove forall. x in Q: P(x), is enough to prove for P(a) and P(b). So the demonstration on finite collections becomes part of inferential procedure.
@@ -729,65 +761,66 @@ X|(y & z) /// (x|y)&(x|z) ... distributive property of | over &
 :: :: ( exists. x .in. {X,Y} : x ) // ( X | Y ) ... contraposition 
 :: .. direct statement
 .. all the cases 
-
-(+) U:={ x .in. U /// 'x is a class' }, this will be the class of all classes.
-(+) S:={ s .in. S /// 's is a statement' }, this will be the class of all things that can be evaluated true.
-(+) f : S -> {true,false}, f is a propositional statement formula 
-(+) [[ C .in. U ]] f : C -> {true,false}, f is a statement formula 
-
-f : X -> Y
-f .in. Y^X /// ( forall. x .in. X : f(x) .in. Y & ( (f(x)=z & f(x)=y ) // z=y) )
+.
+(+) -Classes- will be the classes of all classes, -Statements- and -Functions-, these will denote those classes using informal description or names inside -...-
+(+) -Family- is a class which all elements are classes, a family is a collection of classes.
+(+) [[ A .in. -Classes-, B .in. -Classes- ]] (A < B) /// (x .in. A // x .in. B)
+(+) [[ A .in. -Classes-, B .in. -Classes- ]] A=B /// (A<B / B<A)
+[ Dialetics of Set Equality ]
+? A=B
+:: ? A<B
+:: ? B<A
+(+) [[ C .in. -Family- ]] Union.C := { x .in. ... /// (exists. A .in. C: x .in. A) }
+(+) A .union. B := Union.{A,B}
+(+) [[ C .in. -Family- ]] Intersection.C := { x .in. ... /// (forall. A .in. C: x .in. A) }
+(+) A .intersection. B := Intersection.{A,B}
+(+) [[ X .in. -Classes-, Y .in. -Classes- ]] Y^X := { f .in. ... /// ( forall. x .in. X: f(x) .in. Y & (f(z)=f(x) // z=x) ) }
+(+) v .in. X^n with n an integer is called a finite vector.
+(+) s .in. X^N with N natural number is called a sequence, or an infinte vector.
+... f .in. Y^X is a function from X to Y, X is called domain and Y contra-image, while f(X), the union of results of f are called image,
+... a regular class R is a class that the testing function (* .in. R) is a function with determined domain.
+... you could say that set-theory is a theory of regular classes, because all their classes have testing function with regular domain.
+... on a regular class, the (* .notin. R) and (* .in. R) shares the same domain and so the complementar-class has a meaning and the negation has a meaning.
+... negation has a important meaning on negation and demonstration, so working with regular classes 
+... as the negation behaviour is undefined on non-regular classes, every time we make an affirmation using negation of complementarity, we assume regular classes.
+(+) Complement.A := { x .in. ... /// x .notin. A }
+(+) A' := Complement.A
+(+) {X_a:a .in. A} is an indexed family 
+? [[ 'regular classes' ]] (Union.{X_a})' = Intersection.{X_a'} 
+:: ? (Union.{X_a})' < Intersection.{X_a'}
+:: ? Intersection.{X_a'} < (Union.{X_a})'
+(Union.{X_a})' = Intersection.{X_a'} ... De Morgans's Law 
+... many of the basic properties of these definitions are artifacts of 'packaging' abstractions, and are not of much relevance.
+... having symetric value are important for the aim of objectification as a mechanical process.
+? ( (A < B) / (B<C) ) // A<C .. unpacking
+... this is transitive property of <
+? [[ 'regular classes' ]] ( A<B /// B'<A' ) .. unpacking
+... this is the contraposition for classes 
+(+) Product.{X_a:a .in. A} := { p .in. ... /// exists. f .in. Union.{X_a:a .in. A}^A: f(a) .in. X_a }
+(+) AxB := Product.{A,B}
+(+) let X* denote the proposition value which defines the class X, X*:=(*.in.X /// P(*)) and X*(a):=(a.in.X///P(a))
+(+) let (X* // Y) /// ( forall. a: (X*(a) // Y) ) 
+? ( exists. a .in. X: X*(a) // 0 ) // X={}
+:: ( exists. a .in. X: X*(a) // 0 )
+:: ? X={}
+:: :: X != {}
+:: :: exists. a: a .in. X
+:: :: exists. a .in. X: X*(a) // 0
+:: :: a .choiceof. ...
+:: :: X*(a)
+:: :: X*(a) // 0
+:: :: 0
+:: ..
+.. 
+... Russell's paradox simply dont show up, if the class are defective, then its empty, if its empty it will only create a contraditory priori on quantifier statement, which is allowed as 0//1 is allowed.
+*/
+'Classes and quantifiers are powerful forms of statements, because it abstracts the notion of collections which structure how we conceive definitions and concepts.'
+/** Modal Logic
+Modal Logic is the logic with modal modifiers
+A quantifier is a kind of modal modifier
+!(certain)X /// (possible)!X
 
 */
-
-
-/** The Inferential Operators of Demonstration (?,::)
-... we discussed values for inferences, statements, reasons 
-... Inferences ~ (Allowed,Forbidden)
-... Statements ~ (True,False) , (Known,Unknown)
-... Reasons ~ (Valid, Inference-Valid, Invalid)
-... but how about the values of propositions ?
-... we say that a proposition is closed, when we have achieved a demonstration, either for the statement or their negation. 
-... open propositions are unknown
-? ((closed)?X /// (closed)?!X)
-:: ? ((closed)?X // (closed)? !X)
-:: :: (closed)?X
-:: :: ? (closed)? !X
-:: :: :: (open)? !X
-:: :: 
-
-Induced Dialetics from Proposition Form 
-? X
-:: ? !X // 0
-? X /// Y
-:: ? X//Y
-:: ? Y//X 
-? X // Y
-:: ? !Y // !X 
-? X // Y
-:: ? 
-? X / Y
-:: ? X
-:: ? Y
-
-( ::(..)?X / ::(..)?Y ) // (..)? X/Y
-
-*/
-
-/*
-Inferences ~ (Allowed,Forbidden)
-Statements ~ (True,False) , (Known,Unknown)
-Reasons ~ (Valid, Inference-Valid, Invalid)
-Propositions ~ (Closed, Open) (Known, Unknown)
-*/
-
-/* Formal Statement (Variables,Operators,Functions) 
-Formal Statement < (Variables,Operators,Functions) 
-1. Variables : can be substituted by its value in order to evaluate a statement
-2. Operators : combine variable values returning a evaluated value 
-3. Functions : is a abstraction for an expression which combine variables to return a value 
-*/
-
 /// END
 
 
