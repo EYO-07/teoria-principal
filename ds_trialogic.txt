@@ -815,11 +815,26 @@ Both the reader and the writer can avoid painfully rigorous demonstrations just 
 ... Russell's paradox simply dont show up, if the class are defective, then its empty, if its empty it will only create a contraditory priori on quantifier statement, which is allowed as 0//1 is allowed.
 */
 'Classes and quantifiers are powerful forms of statements, because it abstracts the notion of collections which structure how we conceive definitions and concepts.'
-/** Modal Logic
-Modal Logic is the logic with modal modifiers
-A quantifier is a kind of modal modifier
-!(certain)X /// (possible)!X
-
+/* (Statement,Functions,Classes)
+To end this formal logic exposition guided by the theory of dialectical projections using the trialetic as the dialectical basis, we state that those three fundamental concepts of formal logic (Statements,Functions,Classes) which are (Information,Transformation,Collections) forms an actual atom.
+As said before, atomic structure cannot be divided (atom concept), so those cannot be defined without using the concepts from the others implicity.
+1. Classes are defined using the indicator function an declared as statement.
+2. Functions are define as an especial class, which points an element of a class to another.
+3. Statements are functions which return true or false. 
+When we introduced the statements on inferential procedure and boolean arithmetics, it was before the definition of classes and functions. But for the end of the exposure ot trialogical, one should consider that a regular statement is defined as regular function, a regular function is defined with regular classes and a regular classes are defined with a regular indicator function (with a regular class as domain) and with regular statements.
+Regular Trialectical (Statement,Function,Class) are a trialectical ourobouros, each one using the assumption of regularity from another.
+.
+Analytical Method < (Language,Dialetics,Logic) * Trialetic
+(Language,Dialetics,Logic), those three can be considered the projection of an analytical method, they are not an atom, because language was necessary before, but those three can be seen as the main tools for the analytical philosophy school.
+.
+An the trialects can even explore the domains of esoterism.
+(Chaos,Order,Equilibrium) ~ (Dialetics,Logic,Language)
+Chaos ~ responsible for change 
+Order ~ responsible to preservation 
+Equilibrium ~ responsible to keep the balance
+(Chaos,Order,Equilibrium)
+(Spiritual,Reality,Mind)
+Conscience < (Emotion,Will,Intellect) ~ (Feel,Choose,Understand)
 */
 /// END
 
