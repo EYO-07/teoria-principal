@@ -828,13 +828,18 @@ Analytical Method < (Language,Dialetics,Logic) * Trialetic
 (Language,Dialetics,Logic), those three can be considered the projection of an analytical method, they are not an atom, because language was necessary before, but those three can be seen as the main tools for the analytical philosophy school.
 .
 An the trialects can even explore the domains of esoterism.
-(Chaos,Order,Equilibrium) ~ (Dialetics,Logic,Language)
+(Chaos,Order|Equilibrium) ~ (Dialetics,Logic|Language)
 Chaos ~ responsible for change 
 Order ~ responsible to preservation 
 Equilibrium ~ responsible to keep the balance
-(Chaos,Order,Equilibrium)
-(Spiritual,Reality,Mind)
-Conscience < (Emotion,Will,Intellect) ~ (Feel,Choose,Understand)
+(Chaos,Order|Equilibrium)
+(Spiritual,Reality|Mind)
+Conscience
+(Emotion,Will|Intellect)
+(Feel,Choose|Understand)
+(Intuition,Knowledge|Wisdom)
+Spiritual ~ Transform Chaos in Order 
+Physical ~ Use energy released from Order to Chaos transformation 
 */
 /// END
 
